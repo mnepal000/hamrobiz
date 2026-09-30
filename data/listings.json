@@ -1949,5 +1949,26 @@
     "lat": 39.2908816,
     "lng": -76.610759,
     "verified": true
+  },
+  {
+    "id": "md-082",
+    "name": "Eyebrow Art and Henna",
+    "category": "Beauty & Wellness",
+    "address": "1401 University Blvd E #34B",
+    "city": "Hyattsville",
+    "state": "MD",
+    "zip": "20783",
+    "phone": "(202) 480-1152",
+    "website": "https://sarathreading.com/",
+    "description": "Eyebrow threading, henna art, facials, waxing, and lash services in La Union Center Mall. Founded by Sarita Lama; 4.9 stars from 276 Google reviews; 15+ years in business; walk-ins welcome.",
+    "tags": [
+      "nepali-owned",
+      "women-owned",
+      "threading",
+      "henna",
+      "facial"
+    ],
+    "lat": 38.98585,
+    "lng": -76.984266
   }
 ]
