@@ -2011,5 +2011,25 @@
     ],
     "lat": 39.036439,
     "lng": -77.054725
+  },
+  {
+    "id": "dc-016",
+    "name": "Zen Travels LLC",
+    "category": "Services",
+    "address": "1929 18th St NW Ste 1100",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20009",
+    "phone": "(202) 552-1508",
+    "website": "https://zentravels.com/",
+    "description": "Travel agency in Adams Morgan booking international flights including South Asia routes, in business for 20 years. Resident agent and principal Suraj Basnet.",
+    "tags": [
+      "nepali-owned",
+      "travel",
+      "flights",
+      "tickets"
+    ],
+    "lat": 38.9164,
+    "lng": -77.04134
   }
 ]
