@@ -1,0 +1,724 @@
+[
+  {
+    "id": "dc-011",
+    "name": "Adhikari Law PLLC",
+    "category": "Legal & Immigration",
+    "address": "1627 K St NW Suite 500",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20006",
+    "phone": "(888) 820-4430",
+    "website": "https://www.adhikarilaw.com",
+    "description": "Immigration law firm; attorney Niranjan Adhikari serves Nepali-speaking clients.",
+    "tags": [
+      "immigration",
+      "lawyer",
+      "nepali-speaking"
+    ]
+  },
+  {
+    "id": "dc-005",
+    "name": "Himalayan Doko",
+    "category": "Restaurant",
+    "address": "1108 K St NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20005",
+    "phone": "(202) 637-9770",
+    "website": "https://himalayandoko.com/",
+    "description": "Downtown DC spot for Nepali and Indian curries, momos and tandoor dishes.",
+    "tags": [
+      "curry",
+      "momo",
+      "downtown"
+    ]
+  },
+  {
+    "id": "dc-002",
+    "name": "Himalayan Heritage Restaurant DC",
+    "category": "Restaurant",
+    "address": "2305 18th St NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20009",
+    "phone": "(202) 483-9300",
+    "website": "https://himalayanheritagedc.com/",
+    "description": "Nepalese and Indian eatery in Adams Morgan known for pork and chicken momos and classic curries.",
+    "tags": [
+      "momo",
+      "indian",
+      "adams-morgan"
+    ]
+  },
+  {
+    "id": "dc-008",
+    "name": "Kathmandu Tapas & Cocktails",
+    "category": "Restaurant",
+    "address": "1342 U St NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20009",
+    "phone": "(202) 498-2447",
+    "website": "https://www.kathmandu-dc.site/",
+    "description": "Nepalese tapas and cocktail bar on U Street; mo:mo station, buff sukuti and thakali flavors.",
+    "tags": [
+      "tapas",
+      "cocktails",
+      "momo",
+      "u-street"
+    ]
+  },
+  {
+    "id": "dc-007",
+    "name": "Laliguras Indian & Nepali Bistro",
+    "category": "Restaurant",
+    "address": "4221-B Connecticut Ave NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20008",
+    "phone": "(202) 735-5097",
+    "website": "https://www.laligurasindiannepalibistro.com/",
+    "description": "Indian and Nepali bistro in Forest Hills; recent menu pages still show it active.",
+    "tags": [
+      "nepali",
+      "indian",
+      "bistro"
+    ]
+  },
+  {
+    "id": "dc-004",
+    "name": "Moh Moh Licious",
+    "category": "Restaurant",
+    "address": "7414 Georgia Ave NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20012",
+    "phone": "(202) 817-3031",
+    "website": "https://mohmohlicious.com/",
+    "description": "Nepalese dumpling shop serving steamed, fried and jhol momos plus chowmein and chai.",
+    "tags": [
+      "momo",
+      "jhol-momo",
+      "takeout"
+    ]
+  },
+  {
+    "id": "dc-003",
+    "name": "Nanglo Restaurant & Bar",
+    "category": "Restaurant",
+    "address": "1301 H St NE",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20002",
+    "phone": "(202) 204-3395",
+    "website": "https://nanglodc.com/",
+    "description": "Modern Indian and Nepalese restaurant and bar on H Street with momos, thali sets and cocktails.",
+    "tags": [
+      "momo",
+      "thali",
+      "bar"
+    ]
+  },
+  {
+    "id": "dc-009",
+    "name": "Paras Karki",
+    "category": "Real Estate",
+    "address": "",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "",
+    "phone": "",
+    "website": "https://www.compass.com/agents/paras-karki/",
+    "description": "Compass realtor licensed in DC, MD and VA; speaks English, Hindi and Nepali.",
+    "tags": [
+      "realtor",
+      "nepali-speaking",
+      "compass"
+    ]
+  },
+  {
+    "id": "dc-010",
+    "name": "Prayash Bhusal Realtor",
+    "category": "Real Estate",
+    "address": "",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "",
+    "phone": "",
+    "website": "https://us.sulekha.com/washington-dc/real-estate-agents/prayash-bhusal-realtor-1865328",
+    "description": "Real estate agent serving the Washington DC area, listed on Sulekha.",
+    "tags": [
+      "realtor",
+      "washington-dc"
+    ]
+  },
+  {
+    "id": "dc-001",
+    "name": "Tempo Shack DC",
+    "category": "Restaurant",
+    "address": "804 13th St NE B",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20002",
+    "phone": "+1 771-474-8111",
+    "website": "https://www.temposhackeats.com/",
+    "description": "Nepalese street-food takeout near H Street serving momos, sekuwa and chowmein, open late on weekends.",
+    "tags": [
+      "momo",
+      "sekuwa",
+      "takeout",
+      "late-night"
+    ]
+  },
+  {
+    "id": "dc-006",
+    "name": "Third Eye Tavern",
+    "category": "Restaurant",
+    "address": "1723 Connecticut Ave NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20009",
+    "phone": "(202) 588-0507",
+    "website": "",
+    "description": "Nepali-owned tavern in Dupont Circle; the owner previously ran the Mt. Everest restaurant.",
+    "tags": [
+      "bar",
+      "nepali-owned"
+    ]
+  },
+  {
+    "id": "md-005",
+    "name": "Curry Place",
+    "category": "Restaurant",
+    "address": "12951 Wisteria Dr",
+    "city": "Germantown",
+    "state": "MD",
+    "zip": "20874",
+    "phone": "(301) 972-1005",
+    "website": "https://curryplacemd.com/",
+    "description": "Serves Indian, Indo-Chinese, and Nepalese cuisine including Jhol Momo; catering available. Nepali ownership not confirmed.",
+    "tags": [
+      "nepali-cuisine",
+      "momos",
+      "catering",
+      "restaurant",
+      "ownership-unconfirmed"
+    ]
+  },
+  {
+    "id": "md-003",
+    "name": "Ghar E Kabab",
+    "category": "Restaurant",
+    "address": "944 Wayne Ave",
+    "city": "Silver Spring",
+    "state": "MD",
+    "zip": "20910",
+    "phone": "(301) 587-4427",
+    "website": "https://www.ghar-e-kababmd.com/",
+    "description": "Self-described authentic Nepali restaurant serving the community since 2000; catering for weddings, anniversaries, and events.",
+    "tags": [
+      "nepali-owned",
+      "nepali-cuisine",
+      "catering",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "md-006",
+    "name": "Mandala Kitchen",
+    "category": "Restaurant",
+    "address": "199 E Montgomery Ave Ste E",
+    "city": "Rockville",
+    "state": "MD",
+    "zip": "",
+    "phone": "(240) 403-7685",
+    "website": "https://mandalakitchen.site/",
+    "description": "Serves Indian, Chinese, and Nepalese food; tagline 'Real spice Real Taste'.",
+    "tags": [
+      "nepali-cuisine",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "md-004",
+    "name": "Maya Cuisine Restaurant & Bar",
+    "category": "Restaurant",
+    "address": "7345 Wisconsin Ave",
+    "city": "Bethesda",
+    "state": "MD",
+    "zip": "20814",
+    "phone": "(301) 656-4444",
+    "website": "https://www.mayacuisinerestaurant.com/",
+    "description": "Nepalese and Indian restaurant with full bar.",
+    "tags": [
+      "nepali-cuisine",
+      "restaurant",
+      "bar"
+    ]
+  },
+  {
+    "id": "md-002",
+    "name": "Methi Indian & Nepalese Cuisine",
+    "category": "Restaurant",
+    "address": "2509 University Blvd W",
+    "city": "Silver Spring",
+    "state": "MD",
+    "zip": "20902",
+    "phone": "(301) 933-4532",
+    "website": "http://methimd.com/",
+    "description": "Indian and Nepalese cuisine restaurant with late hours.",
+    "tags": [
+      "nepali-cuisine",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "md-001",
+    "name": "Momo Hub",
+    "category": "Restaurant",
+    "address": "8661 Colesville Rd Level 3",
+    "city": "Silver Spring",
+    "state": "MD",
+    "zip": "",
+    "phone": "(571) 571-3121",
+    "website": "https://www.momohubmd.com/",
+    "description": "Nepalese momo restaurant serving jhol, chili, vegan, and keto momos.",
+    "tags": [
+      "nepali-owned",
+      "momos",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "md-009",
+    "name": "My Eyebrow Threading and Skin Care",
+    "category": "Beauty & Wellness",
+    "address": "11160 Veirs Mill Rd",
+    "city": "Wheaton",
+    "state": "MD",
+    "zip": "20902",
+    "phone": "",
+    "website": "https://salonplaza.com/eyebrow-threading-skin-care-wheaton-md-bimala-thapa-at-salon-plaza/",
+    "description": "Licensed esthetician Bimala Thapa, born in Nepal; eyebrow threading and skin care (facials) inside Salon Plaza Wheaton.",
+    "tags": [
+      "nepali-owned",
+      "women-owned",
+      "eyebrow-threading",
+      "skin-care"
+    ]
+  },
+  {
+    "id": "md-007",
+    "name": "Royal Durbar",
+    "category": "Restaurant",
+    "address": "1321 Rockville Pike Ste C",
+    "city": "Rockville",
+    "state": "MD",
+    "zip": "20852",
+    "phone": "(240) 796-2071",
+    "website": "https://www.yelp.com/biz/royal-durbar-rockville",
+    "description": "Authentic Nepalese cuisine; family-owned; 4.8 stars on Yelp (51 reviews).",
+    "tags": [
+      "nepali-owned",
+      "nepali-cuisine",
+      "family-owned",
+      "restaurant"
+    ]
+  },
+  {
+    "id": "md-008",
+    "name": "Subas Adhikari",
+    "category": "Real Estate",
+    "address": "1600 Elton Rd",
+    "city": "Silver Spring",
+    "state": "MD",
+    "zip": "20903",
+    "phone": "",
+    "website": "https://www.homes.com/real-estate-agents/subas-adhikari/8ztp3h1/",
+    "description": "Licensed MD real-estate salesperson (license #658514, Active) with HomeSmart brokerage serving the Silver Spring area. Nepali connection is name-based.",
+    "tags": [
+      "nepali-name",
+      "real-estate",
+      "name-based"
+    ]
+  },
+  {
+    "address": "12500 Fair Lakes Cir, Ste 290",
+    "category": "Remittance & Finance",
+    "city": "Fairfax",
+    "description": "Mortgage loan officer with Ameris Bank in Fairfax. Nepali surname; serves Nepali homebuyers navigating home financing in Northern Virginia.",
+    "id": "va-022",
+    "name": "Arjun Sigdel, Ameris Bank Mortgage",
+    "phone": "",
+    "state": "VA",
+    "tags": [
+      "mortgage",
+      "home loan",
+      "finance"
+    ],
+    "website": "",
+    "zip": "22033"
+  },
+  {
+    "address": "",
+    "category": "Real Estate",
+    "city": "Fairfax",
+    "description": "Realtor with DMV Realty INC in Fairfax, VA. Virginia license #0225252234. Reviews from Nepali clients; active in Manassas and Fairfax County (sold 10713 Monocacy Way, Manassas).",
+    "id": "va-018",
+    "name": "Bishal Karki, DMV Realty INC",
+    "phone": "",
+    "state": "VA",
+    "tags": [
+      "realtor",
+      "buyer",
+      "seller"
+    ],
+    "website": "",
+    "zip": ""
+  },
+  {
+    "address": "14102 Wood Rock Way",
+    "category": "Other",
+    "city": "Centreville",
+    "description": "Nepali community organization serving the Washington DC metro Nepali community, based in Centreville, VA. Cultural events, community support and outreach.",
+    "id": "va-023",
+    "name": "DC Nepali Samaj",
+    "phone": "",
+    "state": "VA",
+    "tags": [
+      "community",
+      "nonprofit",
+      "cultural"
+    ],
+    "website": "",
+    "zip": ""
+  },
+  {
+    "address": "9697 Main St d",
+    "category": "Real Estate",
+    "city": "Fairfax",
+    "description": "Realtor branding himself as a Nepali Realtor in Fairfax with oNest Real Estate, serving Nepali-speaking buyers and sellers.",
+    "id": "va-017",
+    "name": "Deepak Sharma, oNest Real Estate",
+    "phone": "(202) 258-0192",
+    "state": "VA",
+    "tags": [
+      "realtor",
+      "buyer",
+      "seller",
+      "nepali speaking"
+    ],
+    "website": "",
+    "zip": "22031"
+  },
+  {
+    "address": "5701 Columbia Pike",
+    "category": "Grocery",
+    "city": "Falls Church",
+    "description": "South Asian and Halal grocery carrying Nepali foods.",
+    "id": "va-010",
+    "name": "Deshi Bazar International Halal Market",
+    "phone": "(703) 347-7439",
+    "state": "VA",
+    "tags": [
+      "grocery",
+      "halal",
+      "south asian"
+    ],
+    "website": "",
+    "zip": ""
+  },
+  {
+    "address": "3554 Chain Bridge Rd #305",
+    "category": "Real Estate",
+    "city": "Fairfax",
+    "description": "Realtor branding himself as a Nepali Realtor in Fairfax with Ikon Realty, serving Nepali homebuyers and sellers across Northern Virginia.",
+    "id": "va-016",
+    "name": "Ganesh Pandey, Ikon Realty",
+    "phone": "(703) 945-0112",
+    "state": "VA",
+    "tags": [
+      "realtor",
+      "buyer",
+      "seller",
+      "nepali speaking"
+    ],
+    "website": "https://pandeyhomes.com/",
+    "zip": "22030"
+  },
+  {
+    "address": "1010 N Glebe Rd",
+    "category": "Restaurant",
+    "city": "Arlington",
+    "description": "Nepalese/Himalayan casual dining in Arlington serving momo, tandoori and Himalayan specialties. Also operates an Ashburn location at 22885 Brambleton Plaza.",
+    "id": "va-002",
+    "name": "Himalayan Wild Yak",
+    "phone": "(703) 718-4977",
+    "state": "VA",
+    "tags": [
+      "momo",
+      "nepali cuisine",
+      "himalayan"
+    ],
+    "website": "https://himalayanwildyak.com/",
+    "zip": ""
+  },
+  {
+    "address": "4103 Chain Bridge Road Suite 300",
+    "category": "Legal & Immigration",
+    "city": "Fairfax",
+    "description": "Immigration attorney with Murray Osorio PLLC in Fairfax, VA, practicing immigration law. Nepali name; serves immigrants in Northern Virginia.",
+    "id": "va-019",
+    "name": "Hudaidah Bhimdi, Murray Osorio PLLC",
+    "phone": "",
+    "state": "VA",
+    "tags": [
+      "immigration",
+      "attorney",
+      "legal"
+    ],
+    "website": "",
+    "zip": "22030"
+  },
+  {
+    "address": "",
+    "category": "Real Estate",
+    "city": "Fairfax",
+    "description": "Team leader at Parakh Homes / Samson Properties in Fairfax. Fluent in English, Hindi, Nepali and Urdu. 399+ total sales, 38 in the last 12 months, 5-star rated on Zillow and Realtor.com. Serves Fairfax, Ashburn, Chantilly, Centreville, Woodbridge and the wider DMV.",
+    "id": "va-015",
+    "name": "Kamal Parakh, Samson Properties",
+    "phone": "(703) 678-7225",
+    "state": "VA",
+    "tags": [
+      "realtor",
+      "buyer",
+      "seller",
+      "multilingual",
+      "nepali speaking"
+    ],
+    "website": "",
+    "zip": ""
+  },
+  {
+    "address": "",
+    "category": "Tax & Accounting",
+    "city": "Fairfax",
+    "description": "Nepali-owned accounting firm in Fairfax marketing itself as a premier Nepali accountant for the DMV community. Tax preparation, bookkeeping and accounting for individuals and small businesses.",
+    "id": "va-011",
+    "name": "Keya Accounting & Tax Services LLC",
+    "phone": "",
+    "state": "VA",
+    "tags": [
+      "tax",
+      "accounting",
+      "bookkeeping",
+      "nepali accountant"
+    ],
+    "website": "https://keyatax.com/",
+    "zip": ""
+  },
+  {
+    "address": "15013 Gossom Manor Pl",
+    "category": "Tax & Accounting",
+    "city": "Haymarket",
+    "description": "Tax service run by Tilak Kharel, Enrolled Agent (IRS-credentialed tax professional), in Haymarket. Name references Lumbini, birthplace of the Buddha in Nepal.",
+    "id": "va-012",
+    "name": "Lumbini Tax Service Inc",
+    "phone": "",
+    "state": "VA",
+    "tags": [
+      "tax",
+      "enrolled agent",
+      "irs"
+    ],
+    "website": "",
+    "zip": "20169"
+  },
+  {
+    "address": "13955 Metrotech Dr, Unit J",
+    "category": "Restaurant",
+    "city": "Chantilly",
+    "description": "Indo/Nepali momo shop inside Lotte Plaza in Chantilly. Serves momo (dumplings), chowmein, South Indian snacks and specialty drinks.",
+    "id": "va-006",
+    "name": "Momo Spot",
+    "phone": "(703) 817-2543",
+    "state": "VA",
+    "tags": [
+      "momo",
+      "nepali cuisine",
+      "quick service"
+    ],
+    "website": "http://www.mymomospot.com/",
+    "zip": "20151"
+  },
+  {
+    "address": "6138 Rose Hill Dr",
+    "category": "Restaurant",
+    "city": "Alexandria",
+    "description": "Indian and Nepalese restaurant in Alexandria with Nepalese dishes alongside Indian classics. 4.6 rating from 74 reviews.",
+    "id": "va-003",
+    "name": "Namaste",
+    "phone": "(703) 822-0408",
+    "state": "VA",
+    "tags": [
+      "nepali cuisine",
+      "indian",
+      "dine-in"
+    ],
+    "website": "http://namasteva.com/",
+    "zip": ""
+  },
+  {
+    "address": "4601 Pinecrest Office Park Dr, Suite D",
+    "category": "Health",
+    "city": "Alexandria",
+    "description": "Dentist practicing at Today's Dental at Alexandria PLLC. Virginia dental license 0401418272. Nepali surname; NPI 1841954278.",
+    "id": "va-020",
+    "name": "Neeta Ghimire, DMD (Today's Dental at Alexandria)",
+    "phone": "(703) 256-2085",
+    "state": "VA",
+    "tags": [
+      "dentist",
+      "dental"
+    ],
+    "website": "",
+    "zip": "22312"
+  },
+  {
+    "address": "3615 Chain Bridge Rd Ste C",
+    "category": "Other",
+    "city": "Fairfax",
+    "description": "Nepali American community center in Fairfax, VA serving the local Nepali diaspora with community services, cultural programs and support.",
+    "id": "va-024",
+    "name": "Nepali American Community Center",
+    "phone": "",
+    "state": "VA",
+    "tags": [
+      "community",
+      "nonprofit",
+      "cultural"
+    ],
+    "website": "",
+    "zip": ""
+  },
+  {
+    "address": "",
+    "category": "Services",
+    "city": "Aldie",
+    "description": "Insurance agent in Aldie, VA with 16 years of experience serving the community. Specializes in health, personal, business and auto insurance for Nepali-speaking clients.",
+    "id": "va-021",
+    "name": "Nirmal Atreya Insurance Agent",
+    "phone": "",
+    "state": "VA",
+    "tags": [
+      "insurance",
+      "health insurance",
+      "auto insurance"
+    ],
+    "website": "",
+    "zip": ""
+  },
+  {
+    "address": "13324 Colchester Ferry Place",
+    "category": "Tax & Accounting",
+    "city": "Woodbridge",
+    "description": "Tax and accounting firm in Woodbridge run by Prabin K. Khadka, IRS-registered tax preparer serving individuals and small businesses.",
+    "id": "va-014",
+    "name": "PK Tax & Accounting Services LLC",
+    "phone": "(703) 956-0526",
+    "state": "VA",
+    "tags": [
+      "tax",
+      "accounting",
+      "tax preparer"
+    ],
+    "website": "",
+    "zip": "22191"
+  },
+  {
+    "address": "1466-A N Beauregard St",
+    "category": "Tax & Accounting",
+    "city": "Alexandria",
+    "description": "Tax preparation by Prakash Khanal, IRS-registered tax preparer in Alexandria serving the Nepali community.",
+    "id": "va-013",
+    "name": "Prakash Khanal Tax Services",
+    "phone": "(703) 845-8538",
+    "state": "VA",
+    "tags": [
+      "tax",
+      "tax preparer"
+    ],
+    "website": "",
+    "zip": "22311"
+  },
+  {
+    "address": "3807 Mt Vernon Ave",
+    "category": "Restaurant",
+    "city": "Alexandria",
+    "description": "Authentic Nepalese restaurant run by owners Dip Raj and Tuk Gurung with chef Rai. Known for yak momo, Royal Momo Platter, buff sukuti, selroti and a solid wine cellar. 5.0 rating from 168 reviews.",
+    "id": "va-001",
+    "name": "Royal Nepal",
+    "phone": "(571) 312-5130",
+    "state": "VA",
+    "tags": [
+      "momo",
+      "nepali cuisine",
+      "yak momo",
+      "family owned"
+    ],
+    "website": "https://www.royalnepalrestaurant.com/",
+    "zip": "22305"
+  },
+  {
+    "address": "131 Maple Ave W",
+    "category": "Restaurant",
+    "city": "Vienna",
+    "description": "Nepalese bistro in Vienna, VA. Sister concept to the Royal Nepal brand serving Nepali and Indian cuisine.",
+    "id": "va-005",
+    "name": "Royal Nepal Bistro",
+    "phone": "(571) 407-7252",
+    "state": "VA",
+    "tags": [
+      "nepali cuisine",
+      "bistro",
+      "dine-in"
+    ],
+    "website": "https://royalnepalbistro.com/",
+    "zip": ""
+  },
+  {
+    "address": "10800 Fairfax Blvd",
+    "category": "Restaurant",
+    "city": "Fairfax",
+    "description": "Nepali street food truck in Fairfax known for chicken jhol momo, veg chow mein and chicken choila. Praised for authentic Kathmandu flavors and budget-friendly prices.",
+    "id": "va-004",
+    "name": "Tapari Momo",
+    "phone": "(571) 664-9153",
+    "state": "VA",
+    "tags": [
+      "momo",
+      "food truck",
+      "street food",
+      "jhol momo"
+    ],
+    "website": "https://www.instagram.com/taparimomova",
+    "zip": ""
+  },
+  {
+    "address": "20630 Ashburn Rd #160",
+    "category": "Restaurant",
+    "city": "Ashburn",
+    "description": "Nepalese street-food spot in Ashburn serving dynamite momo, goat momo, guava lassi and Himalayan galli soda. Also has a DC location at 804 13th St NE.",
+    "id": "va-007",
+    "name": "Tempo Shack",
+    "phone": "(571) 436-4205",
+    "state": "VA",
+    "tags": [
+      "momo",
+      "nepali cuisine",
+      "street food"
+    ],
+    "website": "https://www.temposhackeats.com/",
+    "zip": ""
+  }
+]

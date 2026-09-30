@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HamroBiz — Nepali Business Directory (DMV)</title>
+<meta name="description" content="Find Nepali-owned businesses across Washington DC, Maryland, and Virginia. Restaurants, groceries, services, and more.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <span class="brand-mark">🇳🇵</span>
+      <div>
+        <h1>HamroBiz</h1>
+        <p class="tagline">Nepali Business Directory &mdash; DC &middot; Maryland &middot; Virginia</p>
+      </div>
+    </div>
+    <a class="cta-btn" href="mailto:hellomuku@gmail.com?subject=HamroBiz%20listing%20suggestion&body=Business%20name%3A%0ACategory%3A%0ACity%2C%20State%3A%0APhone%2Fwebsite%3A%0A">+ Suggest a business</a>
+  </div>
+</header>
+
+<section class="search-band">
+  <div class="wrap">
+    <input id="search" type="search" placeholder="Search restaurants, groceries, tax services, realtors&hellip;" autocomplete="off" aria-label="Search businesses">
+    <div class="filter-row">
+      <div class="state-tabs" role="tablist" aria-label="Filter by state">
+        <button class="state-tab active" data-state="ALL">All DMV</button>
+        <button class="state-tab" data-state="DC">DC</button>
+        <button class="state-tab" data-state="MD">Maryland</button>
+        <button class="state-tab" data-state="VA">Virginia</button>
+      </div>
+      <select id="category" aria-label="Filter by category">
+        <option value="">All categories</option>
+      </select>
+    </div>
+    <div id="chips" class="chips"></div>
+  </div>
+</section>
+
+<main class="wrap">
+  <p id="count" class="count"></p>
+  <div id="grid" class="grid"></div>
+  <div id="empty" class="empty hidden">
+    <p>No businesses match your search.</p>
+    <p>Know one we're missing? <a href="mailto:hellomuku@gmail.com?subject=HamroBiz%20listing%20suggestion">Suggest it</a>.</p>
+  </div>
+</main>
+
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+  <div class="modal-card">
+    <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>HamroBiz</strong> is a community directory of Nepali-owned businesses in the DMV area.</p>
+    <p class="fine">Listings are compiled from public sources. Know a business we're missing, or spot an error?
+    <a href="mailto:hellomuku@gmail.com?subject=HamroBiz%20listing%20update">Let us know</a>.
+    Self-serve posting and featured listings are coming soon.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
