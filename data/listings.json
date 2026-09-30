@@ -1006,25 +1006,6 @@
     "lng": -77.1169968
   },
   {
-    "address": "4103 Chain Bridge Road Suite 300",
-    "category": "Legal & Immigration",
-    "city": "Fairfax",
-    "description": "Immigration attorney with Murray Osorio PLLC in Fairfax, VA, practicing immigration law. Nepali name; serves immigrants in Northern Virginia.",
-    "id": "va-019",
-    "name": "Hudaidah Bhimdi, Murray Osorio PLLC",
-    "phone": "",
-    "state": "VA",
-    "tags": [
-      "immigration",
-      "attorney",
-      "legal"
-    ],
-    "website": "",
-    "zip": "22030",
-    "lat": 38.8433896,
-    "lng": -77.3078934
-  },
-  {
     "address": "",
     "category": "Real Estate",
     "city": "Fairfax",
@@ -1881,5 +1862,24 @@
     ],
     "lat": 39.0126737,
     "lng": -77.4173711
+  },
+  {
+    "id": "md-078",
+    "name": "Anshu Karki, Law Office of Anshu Karki LLC",
+    "category": "Legal & Immigration",
+    "address": "10015 Old Columbia Rd #B215",
+    "city": "Columbia",
+    "state": "MD",
+    "zip": "21046",
+    "phone": "(202) 713-5659",
+    "website": "https://www.anshukarkilaw.com/",
+    "description": "Nepali immigration attorney in Columbia, MD (by appointment only); family and employment immigration, humanitarian cases, and removal defense.",
+    "tags": [
+      "immigration",
+      "lawyer",
+      "nepali-owned"
+    ],
+    "lat": 39.1734829,
+    "lng": -76.8582874
   }
 ]
