@@ -14,7 +14,9 @@
       "immigration",
       "lawyer",
       "nepali-speaking"
-    ]
+    ],
+    "lat": 38.9028575,
+    "lng": -77.0377016
   },
   {
     "id": "dc-005",
@@ -31,7 +33,9 @@
       "curry",
       "momo",
       "downtown"
-    ]
+    ],
+    "lat": 38.902256,
+    "lng": -77.0275428
   },
   {
     "id": "dc-002",
@@ -48,7 +52,9 @@
       "momo",
       "indian",
       "adams-morgan"
-    ]
+    ],
+    "lat": 38.9198497,
+    "lng": -77.0414246
   },
   {
     "id": "dc-008",
@@ -66,7 +72,9 @@
       "cocktails",
       "momo",
       "u-street"
-    ]
+    ],
+    "lat": 38.9168266,
+    "lng": -77.0312393
   },
   {
     "id": "dc-007",
@@ -83,7 +91,9 @@
       "nepali",
       "indian",
       "bistro"
-    ]
+    ],
+    "lat": 38.9354802,
+    "lng": -77.0584626
   },
   {
     "id": "dc-004",
@@ -100,7 +110,9 @@
       "momo",
       "jhol-momo",
       "takeout"
-    ]
+    ],
+    "lat": 38.9800585,
+    "lng": -77.0267734
   },
   {
     "id": "dc-003",
@@ -117,7 +129,9 @@
       "momo",
       "thali",
       "bar"
-    ]
+    ],
+    "lat": 38.8999697,
+    "lng": -76.9880836
   },
   {
     "id": "dc-009",
@@ -134,7 +148,9 @@
       "realtor",
       "nepali-speaking",
       "compass"
-    ]
+    ],
+    "lat": 38.8950982,
+    "lng": -77.0363849
   },
   {
     "id": "dc-010",
@@ -150,7 +166,9 @@
     "tags": [
       "realtor",
       "washington-dc"
-    ]
+    ],
+    "lat": 38.8950982,
+    "lng": -77.0363849
   },
   {
     "id": "dc-001",
@@ -168,7 +186,9 @@
       "sekuwa",
       "takeout",
       "late-night"
-    ]
+    ],
+    "lat": 38.9004122,
+    "lng": -76.9884147
   },
   {
     "id": "dc-006",
@@ -184,7 +204,9 @@
     "tags": [
       "bar",
       "nepali-owned"
-    ]
+    ],
+    "lat": 38.9133141,
+    "lng": -77.0452916
   },
   {
     "address": "1509 Philadelphia Ave",
@@ -201,7 +223,9 @@
       "indian"
     ],
     "zip": "21842",
-    "website": ""
+    "website": "",
+    "lat": 38.3458515,
+    "lng": -75.0801713
   },
   {
     "address": "710 Concourse Cir Ste 101",
@@ -219,7 +243,9 @@
       "middle-river"
     ],
     "website": "https://www.bajekosekuwa.com/",
-    "zip": "21220"
+    "zip": "21220",
+    "lat": 39.3603497,
+    "lng": -76.4076407
   },
   {
     "address": "2906 Taylor Ave",
@@ -238,7 +264,9 @@
       "parkville"
     ],
     "website": "https://banaonline.org/",
-    "zip": "21234"
+    "zip": "21234",
+    "lat": 39.3743225,
+    "lng": -76.5433187
   },
   {
     "address": "5325 Village Center Dr",
@@ -256,7 +284,9 @@
       "columbia"
     ],
     "website": "https://curryandkebob.com/",
-    "zip": "21044"
+    "zip": "21044",
+    "lat": 39.2199726,
+    "lng": -76.8740922
   },
   {
     "id": "md-005",
@@ -275,7 +305,9 @@
       "catering",
       "restaurant",
       "ownership-unconfirmed"
-    ]
+    ],
+    "lat": 39.1773863,
+    "lng": -77.2707555
   },
   {
     "address": "45315 Alton Ln Suite 16062",
@@ -292,7 +324,9 @@
       "spices"
     ],
     "website": "https://desigrocery.net",
-    "zip": "20619"
+    "zip": "20619",
+    "lat": 38.2946443,
+    "lng": -76.5071212
   },
   {
     "address": "105 2nd St",
@@ -310,7 +344,9 @@
       "late-night"
     ],
     "website": "https://everestcarryout.com/",
-    "zip": "21842"
+    "zip": "21842",
+    "lat": 38.3335036,
+    "lng": -75.0853122
   },
   {
     "id": "md-003",
@@ -328,7 +364,9 @@
       "nepali-cuisine",
       "catering",
       "restaurant"
-    ]
+    ],
+    "lat": 38.9945086,
+    "lng": -77.0257065
   },
   {
     "address": "3531 John Simmons St",
@@ -347,7 +385,9 @@
       "biryani"
     ],
     "website": "http://graceofindiafrederick.com/",
-    "zip": ""
+    "zip": "",
+    "lat": 39.3314678,
+    "lng": -77.3514198
   },
   {
     "address": "1522 E Fort Ave",
@@ -366,7 +406,9 @@
       "locust-point"
     ],
     "website": "https://www.thehimalayanhouse.com/",
-    "zip": "21230"
+    "zip": "21230",
+    "lat": 39.2689616,
+    "lng": -76.5930327
   },
   {
     "id": "md-029",
@@ -384,7 +426,9 @@
       "accounting",
       "bookkeeping",
       "payroll"
-    ]
+    ],
+    "lat": 39.3984782,
+    "lng": -76.542291
   },
   {
     "address": "9350 Snowden River Pkwy",
@@ -402,7 +446,9 @@
       "columbia"
     ],
     "website": "https://www.houseofindiarestaurantbar.com/",
-    "zip": "21046"
+    "zip": "21046",
+    "lat": 39.1765389,
+    "lng": -76.8356925
   },
   {
     "address": "22 Allegheny Ave",
@@ -421,7 +467,9 @@
       "towson"
     ],
     "website": "https://mykathmandukitchen.com/",
-    "zip": "21204"
+    "zip": "21204",
+    "lat": 39.40197,
+    "lng": -76.6038976
   },
   {
     "address": "",
@@ -438,7 +486,9 @@
       "baltimore-metro"
     ],
     "website": "https://www.homes.com/real-estate-agents/kris-ghimire/vkrj9ef/",
-    "zip": "21236"
+    "zip": "21236",
+    "lat": 39.3639964,
+    "lng": -76.4521842
   },
   {
     "address": "911 N Charles St",
@@ -457,7 +507,9 @@
       "mount-vernon"
     ],
     "website": "https://www.kumarirestaurant.net/",
-    "zip": "21201"
+    "zip": "21201",
+    "lat": 39.3001169,
+    "lng": -76.6155014
   },
   {
     "address": "847 E Fort Ave",
@@ -474,7 +526,9 @@
       "locust-point"
     ],
     "website": "https://www.kumarirestaurantbaltimore.com/",
-    "zip": "21230"
+    "zip": "21230",
+    "lat": 39.2711396,
+    "lng": -76.6028805
   },
   {
     "address": "112 N Eutaw St stall t23",
@@ -493,7 +547,9 @@
       "lexington-market"
     ],
     "website": "https://lumbinifusion.com/",
-    "zip": "21201"
+    "zip": "21201",
+    "lat": 39.291293,
+    "lng": -76.621926
   },
   {
     "id": "md-006",
@@ -509,7 +565,9 @@
     "tags": [
       "nepali-cuisine",
       "restaurant"
-    ]
+    ],
+    "lat": 39.0839101,
+    "lng": -77.1499825
   },
   {
     "id": "md-004",
@@ -526,7 +584,9 @@
       "nepali-cuisine",
       "restaurant",
       "bar"
-    ]
+    ],
+    "lat": 38.9832061,
+    "lng": -77.0932475
   },
   {
     "id": "md-002",
@@ -542,7 +602,9 @@
     "tags": [
       "nepali-cuisine",
       "restaurant"
-    ]
+    ],
+    "lat": 39.0365704,
+    "lng": -77.029963
   },
   {
     "id": "md-001",
@@ -559,7 +621,9 @@
       "nepali-owned",
       "momos",
       "restaurant"
-    ]
+    ],
+    "lat": 38.9970339,
+    "lng": -77.0266664
   },
   {
     "address": "12250 Clarksville Pike Ste A",
@@ -577,7 +641,9 @@
       "clarksville"
     ],
     "website": "http://momohubmd.com/",
-    "zip": "21029"
+    "zip": "21029",
+    "lat": 39.2112732,
+    "lng": -76.9389887
   },
   {
     "address": "600 E Pratt St #105",
@@ -595,7 +661,9 @@
       "inner-harbor"
     ],
     "website": "https://www.mounteverestinnerharbor.com/",
-    "zip": "21202"
+    "zip": "21202",
+    "lat": 39.2873338,
+    "lng": -76.6070335
   },
   {
     "address": "1011 W 36th St",
@@ -613,7 +681,9 @@
       "hampden"
     ],
     "website": "http://www.mounteverestrestaurant.net/",
-    "zip": "21211"
+    "zip": "21211",
+    "lat": 39.3309292,
+    "lng": -76.6330838
   },
   {
     "id": "md-009",
@@ -631,7 +701,9 @@
       "women-owned",
       "eyebrow-threading",
       "skin-care"
-    ]
+    ],
+    "lat": 39.0361733,
+    "lng": -77.054976
   },
   {
     "address": "920 N Charles St",
@@ -651,7 +723,9 @@
       "mount-vernon"
     ],
     "website": "https://www.thenepalhouse.com/",
-    "zip": "21201"
+    "zip": "21201",
+    "lat": 39.3003757,
+    "lng": -76.6160467
   },
   {
     "id": "md-028",
@@ -669,7 +743,9 @@
       "nepali",
       "african",
       "spices"
-    ]
+    ],
+    "lat": 39.3236649,
+    "lng": -76.5403256
   },
   {
     "address": "338 N Charles St",
@@ -688,7 +764,9 @@
       "mount-vernon"
     ],
     "website": "https://pariboutique2020.com/",
-    "zip": "21201"
+    "zip": "21201",
+    "lat": 39.2937944,
+    "lng": -76.6157431
   },
   {
     "address": "6490 Dobbin Rd",
@@ -706,7 +784,9 @@
       "columbia"
     ],
     "website": "https://punjabsupermarketmd.com/",
-    "zip": "21045"
+    "zip": "21045",
+    "lat": 39.1926345,
+    "lng": -76.8204416
   },
   {
     "id": "md-007",
@@ -724,7 +804,9 @@
       "nepali-cuisine",
       "family-owned",
       "restaurant"
-    ]
+    ],
+    "lat": 39.0686518,
+    "lng": -77.1300466
   },
   {
     "address": "4501 Falls Rd",
@@ -742,7 +824,9 @@
       "laphing"
     ],
     "website": "https://restaurant.orderq.us/restaurants/sherpa-street-eats",
-    "zip": "21211"
+    "zip": "21211",
+    "lat": 39.3445332,
+    "lng": -76.6407494
   },
   {
     "id": "md-008",
@@ -759,7 +843,9 @@
       "nepali-name",
       "real-estate",
       "name-based"
-    ]
+    ],
+    "lat": 38.9997621,
+    "lng": -77.0240371
   },
   {
     "address": "9810 Belair Rd",
@@ -778,7 +864,9 @@
       "perry-hall"
     ],
     "website": "https://www.tasteoftaj.com/",
-    "zip": "21128"
+    "zip": "21128",
+    "lat": 39.4191206,
+    "lng": -76.4575604
   },
   {
     "address": "400 N Center St Ste 260",
@@ -797,7 +885,9 @@
       "pizza"
     ],
     "website": "http://vinnysmd.com/",
-    "zip": ""
+    "zip": "",
+    "lat": 39.5757227,
+    "lng": -76.9836315
   },
   {
     "address": "12500 Fair Lakes Cir, Ste 290",
@@ -814,7 +904,9 @@
       "finance"
     ],
     "website": "",
-    "zip": "22033"
+    "zip": "22033",
+    "lat": 38.8611873,
+    "lng": -77.3815406
   },
   {
     "address": "",
@@ -831,7 +923,9 @@
       "seller"
     ],
     "website": "",
-    "zip": ""
+    "zip": "",
+    "lat": 38.8462236,
+    "lng": -77.3063733
   },
   {
     "address": "14102 Wood Rock Way",
@@ -848,7 +942,9 @@
       "cultural"
     ],
     "website": "",
-    "zip": ""
+    "zip": "",
+    "lat": 38.8216765,
+    "lng": -77.4330081
   },
   {
     "address": "9697 Main St d",
@@ -866,7 +962,9 @@
       "nepali speaking"
     ],
     "website": "",
-    "zip": "22031"
+    "zip": "22031",
+    "lat": 38.8462236,
+    "lng": -77.3063733
   },
   {
     "address": "5701 Columbia Pike",
@@ -883,7 +981,9 @@
       "south asian"
     ],
     "website": "",
-    "zip": ""
+    "zip": "",
+    "lat": 38.8512544,
+    "lng": -77.1257831
   },
   {
     "address": "3554 Chain Bridge Rd #305",
@@ -901,7 +1001,9 @@
       "nepali speaking"
     ],
     "website": "https://pandeyhomes.com/",
-    "zip": "22030"
+    "zip": "22030",
+    "lat": 38.8600676,
+    "lng": -77.3081982
   },
   {
     "address": "1010 N Glebe Rd",
@@ -918,7 +1020,9 @@
       "himalayan"
     ],
     "website": "https://himalayanwildyak.com/",
-    "zip": ""
+    "zip": "",
+    "lat": 38.8833459,
+    "lng": -77.1169968
   },
   {
     "address": "4103 Chain Bridge Road Suite 300",
@@ -935,7 +1039,9 @@
       "legal"
     ],
     "website": "",
-    "zip": "22030"
+    "zip": "22030",
+    "lat": 38.8433896,
+    "lng": -77.3078934
   },
   {
     "address": "",
@@ -954,7 +1060,9 @@
       "nepali speaking"
     ],
     "website": "",
-    "zip": ""
+    "zip": "",
+    "lat": 38.8462236,
+    "lng": -77.3063733
   },
   {
     "address": "",
@@ -972,7 +1080,9 @@
       "nepali accountant"
     ],
     "website": "https://keyatax.com/",
-    "zip": ""
+    "zip": "",
+    "lat": 38.8462236,
+    "lng": -77.3063733
   },
   {
     "address": "15013 Gossom Manor Pl",
@@ -989,7 +1099,9 @@
       "irs"
     ],
     "website": "",
-    "zip": "20169"
+    "zip": "20169",
+    "lat": 38.8147094,
+    "lng": -77.6372296
   },
   {
     "address": "13955 Metrotech Dr, Unit J",
@@ -1006,7 +1118,9 @@
       "quick service"
     ],
     "website": "http://www.mymomospot.com/",
-    "zip": "20151"
+    "zip": "20151",
+    "lat": 38.895445,
+    "lng": -77.426745
   },
   {
     "address": "6138 Rose Hill Dr",
@@ -1023,7 +1137,9 @@
       "dine-in"
     ],
     "website": "http://namasteva.com/",
-    "zip": ""
+    "zip": "",
+    "lat": 38.7840266,
+    "lng": -77.1219339
   },
   {
     "address": "4601 Pinecrest Office Park Dr, Suite D",
@@ -1039,7 +1155,9 @@
       "dental"
     ],
     "website": "",
-    "zip": "22312"
+    "zip": "22312",
+    "lat": 38.8242227,
+    "lng": -77.1604009
   },
   {
     "address": "3615 Chain Bridge Rd Ste C",
@@ -1056,7 +1174,9 @@
       "cultural"
     ],
     "website": "",
-    "zip": ""
+    "zip": "",
+    "lat": 38.8573462,
+    "lng": -77.3064532
   },
   {
     "address": "",
@@ -1073,7 +1193,9 @@
       "auto insurance"
     ],
     "website": "",
-    "zip": ""
+    "zip": "",
+    "lat": 38.975841,
+    "lng": -77.6460477
   },
   {
     "address": "13324 Colchester Ferry Place",
@@ -1090,7 +1212,9 @@
       "tax preparer"
     ],
     "website": "",
-    "zip": "22191"
+    "zip": "22191",
+    "lat": 38.664624,
+    "lng": -77.2423407
   },
   {
     "address": "1466-A N Beauregard St",
@@ -1106,7 +1230,9 @@
       "tax preparer"
     ],
     "website": "",
-    "zip": "22311"
+    "zip": "22311",
+    "lat": 38.8387361,
+    "lng": -77.1112404
   },
   {
     "address": "3807 Mt Vernon Ave",
@@ -1124,7 +1250,9 @@
       "family owned"
     ],
     "website": "https://www.royalnepalrestaurant.com/",
-    "zip": "22305"
+    "zip": "22305",
+    "lat": 38.839602,
+    "lng": -77.062457
   },
   {
     "address": "131 Maple Ave W",
@@ -1141,7 +1269,9 @@
       "dine-in"
     ],
     "website": "https://royalnepalbistro.com/",
-    "zip": ""
+    "zip": "",
+    "lat": 38.9010353,
+    "lng": -77.2660272
   },
   {
     "address": "10800 Fairfax Blvd",
@@ -1159,7 +1289,9 @@
       "jhol momo"
     ],
     "website": "https://www.instagram.com/taparimomova",
-    "zip": ""
+    "zip": "",
+    "lat": 38.8549207,
+    "lng": -77.317127
   },
   {
     "address": "20630 Ashburn Rd #160",
@@ -1176,6 +1308,8 @@
       "street food"
     ],
     "website": "https://www.temposhackeats.com/",
-    "zip": ""
+    "zip": "",
+    "lat": 39.0468781,
+    "lng": -77.4849836
   }
 ]

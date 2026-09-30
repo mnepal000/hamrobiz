@@ -6,6 +6,7 @@
 <title>HamroBiz — Nepali Business Directory (DMV)</title>
 <meta name="description" content="Find Nepali-owned businesses across Washington DC, Maryland, and Virginia. Restaurants, groceries, services, and more.">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
 
@@ -35,6 +36,10 @@
       <select id="category" aria-label="Filter by category">
         <option value="">All categories</option>
       </select>
+      <div class="view-toggle" role="tablist" aria-label="Switch view">
+        <button id="view-list" class="view-btn active">List</button>
+        <button id="view-map" class="view-btn">Map</button>
+      </div>
     </div>
     <div id="chips" class="chips"></div>
   </div>
@@ -46,6 +51,10 @@
   <div id="empty" class="empty hidden">
     <p>No businesses match your search.</p>
     <p>Know one we're missing? <a href="mailto:hellomuku@gmail.com?subject=HamroBiz%20listing%20suggestion">Suggest it</a>.</p>
+  </div>
+  <div id="map-wrap" class="hidden">
+    <div id="map"></div>
+    <p id="map-note" class="map-note"></p>
   </div>
 </main>
 
@@ -65,6 +74,7 @@
   </div>
 </footer>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

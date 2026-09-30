@@ -84,6 +84,26 @@ body {
 .card .meta a:hover { text-decoration: underline; }
 
 .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
+.view-toggle { display: flex; gap: 0; margin-left: auto; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+.view-btn {
+  border: none; background: #fff; padding: 8px 18px; font-size: 14px;
+  font-weight: 700; cursor: pointer; color: var(--muted);
+}
+.view-btn.active { background: var(--crimson); color: #fff; }
+
+/* Map */
+#map-wrap { padding-bottom: 40px; }
+#map {
+  height: 68vh; min-height: 420px; border-radius: var(--radius);
+  border: 1px solid var(--line); z-index: 1;
+}
+#map .leaflet-tile-pane { filter: sepia(0.12) saturate(0.92); }
+.map-note { color: var(--muted); font-size: 13px; margin-top: 8px; }
+.leaflet-popup-content { font-family: inherit; line-height: 1.5; }
+.leaflet-popup-content h3 { font-size: 15px; margin: 2px 0 4px; }
+.leaflet-popup-content .badge { margin-bottom: 4px; display: inline-block; }
+.leaflet-popup-content p { margin: 3px 0; font-size: 13px; }
+.leaflet-popup-content a { color: var(--blue); font-weight: 600; }
 .empty a { color: var(--blue); }
 .hidden { display: none !important; }
 
