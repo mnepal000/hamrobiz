@@ -1970,5 +1970,25 @@
     ],
     "lat": 38.98585,
     "lng": -76.984266
+  },
+  {
+    "id": "md-083",
+    "name": "Prabin Bhandari",
+    "category": "Real Estate",
+    "address": "7939 Honeygo Blvd #121",
+    "city": "Nottingham",
+    "state": "MD",
+    "zip": "21236",
+    "phone": "(443) 713-8672",
+    "website": "https://www.ratemyagent.com/real-estate-agent/prabin-bhandari-b1j43y/sales/overview",
+    "description": "Realtor with Keller Williams Gateway LLC serving Nottingham, Baltimore, Ellicott City, and Perry Hall. 31 homes sold in the last 12 months ($17M volume); 157 career sales per Homes.com. Client reviews praise fast closings and patient, professional service.",
+    "tags": [
+      "nepali-owned",
+      "realtor",
+      "buyer-agent",
+      "seller-agent"
+    ],
+    "lat": 39.37198,
+    "lng": -76.47164
   }
 ]
