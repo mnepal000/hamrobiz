@@ -1881,5 +1881,61 @@
     ],
     "lat": 39.1734829,
     "lng": -76.8582874
+  },
+  {
+    "id": "md-079",
+    "name": "Swadesh Grocery",
+    "category": "Grocery",
+    "address": "8615 Ridgelys Choice Dr Suite 109",
+    "city": "Nottingham",
+    "state": "MD",
+    "zip": "21236",
+    "phone": "(410) 870-0033",
+    "website": "http://www.swadeshgrocery.com/",
+    "description": "South Asian grocery in Nottingham open daily 9 AM to 9 PM; fresh produce, fresh goat meat, local chicken, momos, thukpa, spices and frozen goods from Nepal, India, Bhutan, Pakistan and beyond. Rated 4.6 from 112 reviews.",
+    "tags": [
+      "grocery",
+      "momo",
+      "nepali"
+    ],
+    "lat": 39.3639964,
+    "lng": -76.4521842
+  },
+  {
+    "id": "md-080",
+    "name": "Shoe Plus",
+    "category": "Retail",
+    "address": "8200 Perry Hall Blvd",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21236",
+    "phone": "",
+    "website": "",
+    "description": "Shoe store inside White Marsh Mall near JCPenney, first floor; announced as newly opened in September 2026. Nepali ownership unconfirmed.",
+    "tags": [
+      "nepali",
+      "retail"
+    ],
+    "lat": 39.374764,
+    "lng": -76.4673862
+  },
+  {
+    "id": "md-081",
+    "name": "Sisika U Photography",
+    "category": "Services",
+    "address": "Serving the Baltimore area",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "",
+    "phone": "",
+    "website": "https://www.sisikauphotography.com/",
+    "description": "Nepali-American portrait, wedding and travel photographer newly based in the Baltimore area.",
+    "tags": [
+      "nepali",
+      "nepali-owned",
+      "photography"
+    ],
+    "lat": 39.2908816,
+    "lng": -76.610759
   }
 ]
