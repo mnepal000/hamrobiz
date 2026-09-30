@@ -28,6 +28,7 @@
     <button class="nav-btn active" data-view="directory">Directory</button>
     <button class="nav-btn" data-view="jobs">Jobs <span class="preview-pill">Preview</span></button>
     <button class="nav-btn" data-view="housing">Housing <span class="preview-pill">Preview</span></button>
+    <button class="nav-btn" data-view="events">Events <span class="preview-pill">Preview</span></button>
   </div>
 </nav>
 
@@ -111,6 +112,21 @@
   <p id="housing-count" class="count"></p>
   <div id="housing-grid" class="grid"></div>
   <div id="housing-empty" class="empty hidden"><p>No housing matches your search.</p></div>
+</div>
+
+<div id="view-events" class="hidden">
+  <div class="demo-banner">Preview with demo listings. Real community events will appear here at launch.</div>
+  <div class="board-head">
+    <div>
+      <h2 class="section-title">Community events</h2>
+      <p class="board-sub">Festivals the Nepali community celebrates and gatherings it organizes across the DMV.</p>
+    </div>
+    <a class="cta-btn cta-dark" href="mailto:hellomuku@gmail.com?subject=HamroBiz%20event%20submission&body=Event%20title%3A%0AOrganizer%3A%0ADate(s)%3A%0ALocation%3A%0ADescription%3A%0A">+ Submit an event</a>
+  </div>
+  <input id="event-search" type="search" placeholder="Search events&hellip;" autocomplete="off" aria-label="Search events">
+  <p id="event-count" class="count"></p>
+  <div id="event-grid" class="event-grid"></div>
+  <div id="event-empty" class="empty hidden"><p>No events match your search.</p></div>
 </div>
 </main>
 

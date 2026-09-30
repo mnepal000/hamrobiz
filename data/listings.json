@@ -1990,5 +1990,26 @@
     ],
     "lat": 39.37198,
     "lng": -76.47164
+  },
+  {
+    "id": "md-084",
+    "name": "Classic Diamond & Jewelry",
+    "category": "Retail",
+    "address": "11160 Veirs Mill Rd",
+    "city": "Silver Spring",
+    "state": "MD",
+    "zip": "20902",
+    "phone": "(301) 949-0900",
+    "website": "https://www.classicdiamond.us/",
+    "description": "Family-owned jeweler in Westfield Wheaton specializing in 22K gold and diamond jewelry from Nepal; 24K Himalayan Nepali and bridal collections, custom design, repair, and appraisals. Authorized Pandora dealer. 4.5 stars from 108 reviews.",
+    "tags": [
+      "nepali-owned",
+      "jewelry",
+      "gold",
+      "bridal",
+      "watches"
+    ],
+    "lat": 39.036439,
+    "lng": -77.054725
   }
 ]

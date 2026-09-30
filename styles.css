@@ -247,3 +247,22 @@ h2 .verified { font-size: 12px; }
   font-size: 14px; text-align: center; align-self: flex-start;
 }
 .apply-btn:hover { background: #a00d26; }
+
+/* Event cards */
+.event-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.event-card { border-top: 3px solid #d4a017; }
+.event-top { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: .6rem; }
+.event-top h2 { font-size: 1.12rem; margin: 0; }
+.event-date {
+  flex: 0 0 auto; width: 58px; text-align: center;
+  background: #a5123a; color: #fff; border-radius: 8px; overflow: hidden;
+}
+.ed-mon { display: block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: .3rem 0; background: rgba(0,0,0,.18); }
+.ed-day { display: block; font-size: 1.5rem; font-weight: 800; padding: .35rem 0 .45rem; }
+.event-when { margin: .2rem 0 0; font-size: .85rem; color: #555; }
+.demo-tag {
+  margin-left: auto; flex: 0 0 auto; font-size: .7rem; font-weight: 700;
+  background: #eee; color: #777; border-radius: 999px; padding: .2rem .6rem;
+}
+.event-card .loc { font-size: .85rem; color: #555; margin: 0 0 .5rem; }
+.event-card .desc { font-size: .92rem; color: #333; margin: 0; }

@@ -1,12 +1,14 @@
 let LISTINGS = [];
 let JOBS = [];
 let HOUSING = [];
+let EVENTS = [];
 let activeState = "ALL";
 let activeCategory = "";
 let query = "";
 let activeView = "directory";
 let jobQuery = "";
 let housingQuery = "";
+let eventQuery = "";
 
 const grid = document.getElementById("grid");
 const countEl = document.getElementById("count");
@@ -31,17 +33,20 @@ const CATEGORY_ORDER = [
 Promise.all([
   fetch("data/listings.json").then(r => r.json()),
   fetch("data/jobs.json").then(r => r.json()).catch(() => []),
-  fetch("data/housing.json").then(r => r.json()).catch(() => [])
+  fetch("data/housing.json").then(r => r.json()).catch(() => []),
+  fetch("data/events.json").then(r => r.json()).catch(() => [])
 ])
-  .then(([listings, jobs, housing]) => {
+  .then(([listings, jobs, housing, events]) => {
     LISTINGS = Array.isArray(listings) ? listings : [];
     JOBS = Array.isArray(jobs) ? jobs : [];
     HOUSING = Array.isArray(housing) ? housing : [];
+    EVENTS = Array.isArray(events) ? events : [];
     buildCategoryOptions();
     buildChips();
     render();
     renderJobs();
     renderHousing();
+    renderEvents();
   })
   .catch(() => {
     countEl.textContent = "Could not load listings.";
@@ -325,6 +330,59 @@ document.getElementById("housing-search").oninput = e => {
   renderHousing();
 };
 
+/* ---- Events board ---- */
+
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function fmtDate(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return { y, mon: MONTHS[m - 1], day: d };
+}
+
+function fmtRange(start, end) {
+  const s = fmtDate(start);
+  if (!end || end === start) return `${s.mon} ${s.day}, ${s.y}`;
+  const e = fmtDate(end);
+  if (s.mon === e.mon) return `${s.mon} ${s.day} \u2013 ${e.day}, ${s.y}`;
+  return `${s.mon} ${s.day} \u2013 ${e.mon} ${e.day}, ${s.y}`;
+}
+
+function renderEvents() {
+  const grid = document.getElementById("event-grid");
+  if (!grid) return;
+  const results = EVENTS
+    .filter(e => !eventQuery ||
+      [e.title, e.organizer, e.location, e.description].join(" ").toLowerCase().includes(eventQuery))
+    .slice()
+    .sort((a, b) => (a.date_start || "").localeCompare(b.date_start || ""));
+  document.getElementById("event-count").textContent =
+    `Showing ${results.length} of ${EVENTS.length} events`;
+  document.getElementById("event-empty").classList.toggle("hidden", results.length > 0);
+  grid.innerHTML = "";
+  results.forEach(e => {
+    const s = fmtDate(e.date_start);
+    const card = document.createElement("article");
+    card.className = "card event-card";
+    card.innerHTML =
+      `<div class="event-top"><div class="event-date"><span class="ed-mon"></span><span class="ed-day"></span></div>` +
+      `<div><h2></h2><p class="event-when"></p></div><span class="demo-tag">Demo</span></div>` +
+      `<p class="loc"></p><p class="desc"></p>`;
+    card.querySelector(".ed-mon").textContent = s.mon;
+    card.querySelector(".ed-day").textContent = s.day;
+    card.querySelector("h2").textContent = e.title;
+    card.querySelector(".event-when").textContent = fmtRange(e.date_start, e.date_end);
+    card.querySelector(".loc").textContent =
+      [e.organizer, e.location].filter(Boolean).join(" \u00B7 ");
+    card.querySelector(".desc").textContent = e.description || "";
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById("event-search").oninput = e => {
+  eventQuery = e.target.value.trim().toLowerCase();
+  renderEvents();
+};
+
 document.querySelectorAll(".state-tab").forEach(b => {
   b.onclick = () => {
     document.querySelectorAll(".state-tab").forEach(x => x.classList.remove("active"));
@@ -361,6 +419,7 @@ document.querySelectorAll(".nav-btn").forEach(b => {
     document.getElementById("view-directory").classList.toggle("hidden", activeView !== "directory");
     document.getElementById("view-jobs").classList.toggle("hidden", activeView !== "jobs");
     document.getElementById("view-housing").classList.toggle("hidden", activeView !== "housing");
+    document.getElementById("view-events").classList.toggle("hidden", activeView !== "events");
     searchBand.classList.toggle("hidden", activeView !== "directory");
     if (activeView === "directory" && mapView) setTimeout(() => map && map.invalidateSize(), 50);
   };
