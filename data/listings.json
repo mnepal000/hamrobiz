@@ -1933,7 +1933,7 @@
   {
     "id": "md-081",
     "name": "Sisika U Photography",
-    "category": "Services",
+    "category": "Photography & Videography",
     "address": "Serving the Baltimore area",
     "city": "Baltimore",
     "state": "MD",
@@ -2015,7 +2015,7 @@
   {
     "id": "dc-016",
     "name": "Zen Travels LLC",
-    "category": "Services",
+    "category": "Travel",
     "address": "1929 18th St NW Ste 1100",
     "city": "Washington",
     "state": "DC",
@@ -2031,5 +2031,25 @@
     ],
     "lat": 38.9164,
     "lng": -77.04134
+  },
+  {
+    "id": "md-085",
+    "name": "Jhato Creation",
+    "category": "Photography & Videography",
+    "address": "Serving the Baltimore area",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "",
+    "phone": "+1 (667) 353-7697",
+    "website": "https://jhato.com/",
+    "description": "Premium videography agency: wedding films, brand storytelling, product showcases and social media content with 24-hour edit turnaround. Contact via WhatsApp.",
+    "tags": [
+      "nepali-owned",
+      "videography",
+      "weddings",
+      "video production"
+    ],
+    "lat": 39.2908816,
+    "lng": -76.610759
   }
 ]
