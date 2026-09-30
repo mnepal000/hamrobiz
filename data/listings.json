@@ -1311,5 +1311,295 @@
     "zip": "",
     "lat": 39.0468781,
     "lng": -77.4849836
+  },
+  {
+    "id": "va-025",
+    "name": "Himalayan Food Truck",
+    "category": "Restaurant",
+    "address": "3416 Williamson Rd",
+    "city": "Roanoke",
+    "state": "VA",
+    "zip": "24012",
+    "phone": "540-467-2226",
+    "website": "",
+    "description": "Nepalese food truck on Williamson Rd serving momos and Himalayan bites, rated highly in local reviews. Nepali ownership not independently confirmed.",
+    "tags": [
+      "food truck",
+      "momo",
+      "nepali"
+    ],
+    "lat": 37.3021784,
+    "lng": -79.943683
+  },
+  {
+    "id": "va-026",
+    "name": "Hamro Kitchen",
+    "category": "Restaurant",
+    "address": "403 Draper Rd SW",
+    "city": "Blacksburg",
+    "state": "VA",
+    "zip": "24060",
+    "phone": "540-818-5767",
+    "website": "https://hamrokitchen.net/",
+    "description": "Nepali and Indian restaurant near Virginia Tech; its own site says 'our story began in the heart of Nepal'. Butter chicken momos and biryani are menu standouts.",
+    "tags": [
+      "momo",
+      "nepali"
+    ],
+    "lat": 37.2296566,
+    "lng": -80.4136767
+  },
+  {
+    "id": "va-027",
+    "name": "Namaste Kitchen",
+    "category": "Restaurant",
+    "address": "239 N Main St",
+    "city": "Blacksburg",
+    "state": "VA",
+    "zip": "24060",
+    "phone": "540-806-1219",
+    "website": "https://namastekitchen.site/",
+    "description": "Nepalese-Indian eatery in downtown Blacksburg; describes Nepali cuisine as its focus. Lunch and dinner with takeout and delivery.",
+    "tags": [
+      "nepali"
+    ],
+    "lat": 37.2305121,
+    "lng": -80.4153577
+  },
+  {
+    "id": "va-028",
+    "name": "Khukuri Nepali Cuisine",
+    "category": "Restaurant",
+    "address": "40 Riverton Commons Dr",
+    "city": "Front Royal",
+    "state": "VA",
+    "zip": "22630",
+    "phone": "540-749-2440",
+    "website": "http://www.khukurinepalicuisine.com/",
+    "description": "Authentic Nepali and Indian restaurant with fine-dining service in Front Royal; momos and tandoori mixed grill are guest favorites.",
+    "tags": [
+      "momo",
+      "nepali"
+    ],
+    "lat": 38.9179069,
+    "lng": -78.1918077
+  },
+  {
+    "id": "va-029",
+    "name": "Indian-American Cafe",
+    "category": "Restaurant",
+    "address": "91 N Main St",
+    "city": "Harrisonburg",
+    "state": "VA",
+    "zip": "22802",
+    "phone": "540-433-1177",
+    "website": "https://indianandamericancafe.com/",
+    "description": "Family-owned Indian cafe in downtown Harrisonburg that also serves Nepalese dumplings; listed under Nepalese restaurant categories. Nepali ownership unconfirmed.",
+    "tags": [
+      "nepali"
+    ],
+    "lat": 38.4503504,
+    "lng": -78.8685014
+  },
+  {
+    "id": "va-030",
+    "name": "Namaste Winchester Market",
+    "category": "Grocery",
+    "address": "107 Millwood Ave",
+    "city": "Winchester",
+    "state": "VA",
+    "zip": "22601",
+    "phone": "540-665-9500",
+    "website": "",
+    "description": "South Asian grocery that explicitly invites shoppers to 'try Nepali, Indian, Pakistani, and Bengali foods'. Ownership unconfirmed.",
+    "tags": [
+      "grocery",
+      "nepali"
+    ],
+    "lat": 39.1761885,
+    "lng": -78.1668856
+  },
+  {
+    "id": "va-031",
+    "name": "Asian Grocery and Halal Food",
+    "category": "Grocery",
+    "address": "3416 Williamson Rd NW",
+    "city": "Roanoke",
+    "state": "VA",
+    "zip": "24012",
+    "phone": "540-563-3779",
+    "website": "https://www.facebook.com/102248775910130",
+    "description": "Ethnic grocery at the same address as the Himalayan Food Truck, selling momos, chole bhatura, and Asian, Indian, and halal foods. Nepali ownership unconfirmed.",
+    "tags": [
+      "food truck",
+      "grocery",
+      "halal",
+      "momo",
+      "nepali"
+    ],
+    "lat": 37.3338969,
+    "lng": -79.9547278
+  },
+  {
+    "id": "va-032",
+    "name": "International Asian Halal Market",
+    "category": "Grocery",
+    "address": "3202 Williamson Rd",
+    "city": "Roanoke",
+    "state": "VA",
+    "zip": "24012",
+    "phone": "540-682-2345",
+    "website": "",
+    "description": "South Asian grocery on Williamson Rd selling momo dumplings, chow mein, and halal foods. Nepali ownership unconfirmed.",
+    "tags": [
+      "grocery",
+      "halal",
+      "momo",
+      "nepali"
+    ],
+    "lat": 37.3003029,
+    "lng": -79.9414799
+  },
+  {
+    "id": "va-033",
+    "name": "Himalayan Heritage Restaurant & Bar",
+    "category": "Restaurant",
+    "address": "10336 Spotsylvania Ave",
+    "city": "Fredericksburg",
+    "state": "VA",
+    "zip": "22408",
+    "phone": "(540) 993-4252",
+    "website": "https://himalayanheritageva.com/",
+    "description": "Nepali and Indian restaurant in Fredericksburg. Ownership unconfirmed.",
+    "tags": [
+      "nepali"
+    ],
+    "lat": 38.242319,
+    "lng": -77.4980091
+  },
+  {
+    "id": "va-034",
+    "name": "Himalayan Fusion",
+    "category": "Restaurant",
+    "address": "520 E Main St",
+    "city": "Charlottesville",
+    "state": "VA",
+    "zip": "22902",
+    "phone": "(434) 293-3120",
+    "website": "https://himalayanfusion.com/",
+    "description": "Serving Himalayan and Nepali cuisine on the Charlottesville Downtown Mall since 2006. Ownership unconfirmed.",
+    "tags": [
+      "nepali"
+    ],
+    "lat": 38.029567,
+    "lng": -78.477974
+  },
+  {
+    "id": "va-035",
+    "name": "Currylicious - Himalayan Kitchen",
+    "category": "Restaurant",
+    "address": "946 Grady Ave stall i",
+    "city": "Charlottesville",
+    "state": "VA",
+    "zip": "22903",
+    "phone": "(434) 202-2413",
+    "website": "https://www.instagram.com/currylicious2024",
+    "description": "Nepali kitchen known for momos, selroti, and halal meats. Ownership unconfirmed.",
+    "tags": [
+      "halal",
+      "momo",
+      "nepali"
+    ],
+    "lat": 38.0379803,
+    "lng": -78.4912315
+  },
+  {
+    "id": "va-036",
+    "name": "Subha Laxmi Store (Nepali and Indian Groceries)",
+    "category": "Grocery",
+    "address": "1423 Blue Jay Ln",
+    "city": "Richmond",
+    "state": "VA",
+    "zip": "23229",
+    "phone": "540-295-8669",
+    "website": "",
+    "description": "Nepali and Indian grocery store in Richmond. Ownership unconfirmed.",
+    "tags": [
+      "grocery",
+      "nepali"
+    ],
+    "lat": 37.5385087,
+    "lng": -77.43428
+  },
+  {
+    "id": "va-037",
+    "name": "Everest Grocery Store",
+    "category": "Grocery",
+    "address": "198 Zan Rd",
+    "city": "Charlottesville",
+    "state": "VA",
+    "zip": "22901",
+    "phone": "(434) 284-7549",
+    "website": "https://www.expressgrocerystore.com/",
+    "description": "Indian and Nepali grocery store run by Utsav Gautam, per C-VILLE Weekly. Nepali-associated.",
+    "tags": [
+      "grocery",
+      "nepali"
+    ],
+    "lat": 38.0630891,
+    "lng": -78.4883366
+  },
+  {
+    "id": "va-038",
+    "name": "NCRVA",
+    "category": "Other",
+    "address": "",
+    "city": "Richmond",
+    "state": "VA",
+    "zip": "",
+    "phone": "",
+    "website": "https://sites.google.com/ncrva.org/home/bylaws",
+    "description": "Nepali Community of Greater Richmond Virginia, a 501(c)(3) community organization. Held an August 2026 flood-relief vigil at Libbie Mill Library in Henrico.",
+    "tags": [
+      "nepali"
+    ],
+    "lat": 37.5385087,
+    "lng": -77.43428
+  },
+  {
+    "id": "va-039",
+    "name": "Kathmandu MoMo & Spice",
+    "category": "Restaurant",
+    "address": "",
+    "city": "Richmond",
+    "state": "VA",
+    "zip": "",
+    "phone": "",
+    "website": "",
+    "description": "Food truck serving authentic Nepali and Indian food in downtown Richmond. Ownership unconfirmed.",
+    "tags": [
+      "food truck",
+      "momo",
+      "nepali"
+    ],
+    "lat": 37.5385087,
+    "lng": -77.43428
+  },
+  {
+    "id": "va-040",
+    "name": "Taste of Himalaya",
+    "category": "Restaurant",
+    "address": "10392 James Madison Pkwy",
+    "city": "King George",
+    "state": "VA",
+    "zip": "22485",
+    "phone": "(540) 625-2078",
+    "website": "https://tasteofhimal.com/",
+    "description": "Himalayan and Nepalese restaurant in King George, about 21 miles from Fredericksburg. Active on DoorDash. Ownership unconfirmed.",
+    "tags": [
+      "nepali"
+    ],
+    "lat": 38.2667086,
+    "lng": -77.143722
   }
 ]
