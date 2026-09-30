@@ -1809,7 +1809,7 @@
   {
     "id": "md-075",
     "name": "Nepal Education and Cultural Center (NECC)",
-    "category": "Other",
+    "category": "Religious",
     "address": "11650 Snowden Farm Pkwy",
     "city": "Germantown",
     "state": "MD",
@@ -1824,5 +1824,62 @@
     ],
     "lat": 39.1712341,
     "lng": -77.2655648
+  },
+  {
+    "id": "md-076",
+    "name": "Hindu Buddha Mandir (Nepali-American Cultural Center of Baltimore)",
+    "category": "Religious",
+    "address": "12231 Harford Rd",
+    "city": "Glen Arm",
+    "state": "MD",
+    "zip": "21057",
+    "phone": "(410) 905-5791",
+    "website": "https://hindubuddhamandir.org/",
+    "description": "Hindu and Buddhist temple run by the Nepali-American Cultural Center of Baltimore. Serves the Baltimore Nepali community with daily pujas, satsang bhajans, Dashain/Tihar/Chhath celebrations, and lifecycle ceremonies like pasni and bratabandha.",
+    "tags": [
+      "nepali",
+      "temple",
+      "religious"
+    ],
+    "lat": 39.4586541,
+    "lng": -76.4617615
+  },
+  {
+    "id": "md-077",
+    "name": "Radha Govinda Pashupatinath Temple",
+    "category": "Religious",
+    "address": "1616 Desoto Rd",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "",
+    "phone": "(443) 991-2085",
+    "website": "https://radha-govinda-pashupatinath-temple.business.site/",
+    "description": "Hindu temple in Baltimore serving the Nepali community, currently constructing a Pashupatinath Temple on its premises. Open daily with morning and evening worship.",
+    "tags": [
+      "nepali",
+      "temple",
+      "religious"
+    ],
+    "lat": 39.2662322,
+    "lng": -76.657131
+  },
+  {
+    "id": "va-047",
+    "name": "Grace Nepali Church",
+    "category": "Religious",
+    "address": "45650 Oakbrook Ct",
+    "city": "Sterling",
+    "state": "VA",
+    "zip": "",
+    "phone": "(703) 665-9497",
+    "website": "http://www.gracenepalichurch.org/",
+    "description": "Nepali-speaking Christian congregation founded in 2020 by Pastor Ramesh Minali, meeting Sundays at 4pm in Sterling. Ministries include youth, children, women, food pantry outreach, and house fellowships.",
+    "tags": [
+      "nepali",
+      "church",
+      "religious"
+    ],
+    "lat": 39.0126737,
+    "lng": -77.4173711
   }
 ]
