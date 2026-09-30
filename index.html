@@ -23,6 +23,14 @@
   </div>
 </header>
 
+<nav class="main-nav" aria-label="Site sections">
+  <div class="wrap nav-inner">
+    <button class="nav-btn active" data-view="directory">Directory</button>
+    <button class="nav-btn" data-view="jobs">Jobs <span class="preview-pill">Preview</span></button>
+    <button class="nav-btn" data-view="housing">Housing <span class="preview-pill">Preview</span></button>
+  </div>
+</nav>
+
 <section class="search-band">
   <div class="wrap">
     <input id="search" type="search" placeholder="Search restaurants, groceries, tax services, realtors&hellip;" autocomplete="off" aria-label="Search businesses">
@@ -46,6 +54,23 @@
 </section>
 
 <main class="wrap">
+<div id="view-directory">
+  <aside class="ad-slot" aria-label="Advertisement">
+    <span class="ad-label">Sponsored</span>
+    <div class="ad-body">
+      <div>
+        <strong>Reach 10,000+ Nepali-Americans across the DMV</strong>
+        <p>Banner ads from $49/month. Put your business in front of the community.</p>
+      </div>
+      <a class="ad-cta" href="mailto:hellomuku@gmail.com?subject=HamroBiz%20advertising">Advertise with us</a>
+    </div>
+  </aside>
+
+  <section id="featured" class="hidden" aria-label="Featured businesses">
+    <h2 class="section-title">&#9733; Featured businesses</h2>
+    <div id="featured-row" class="featured-row"></div>
+  </section>
+
   <p id="count" class="count"></p>
   <div id="grid" class="grid"></div>
   <div id="empty" class="empty hidden">
@@ -56,6 +81,37 @@
     <div id="map"></div>
     <p id="map-note" class="map-note"></p>
   </div>
+</div>
+
+<div id="view-jobs" class="hidden">
+  <div class="demo-banner">Preview with demo listings. Real community job postings will appear here at launch.</div>
+  <div class="board-head">
+    <div>
+      <h2 class="section-title">Jobs board</h2>
+      <p class="board-sub">Open roles at Nepali-owned businesses and community employers across the DMV.</p>
+    </div>
+    <a class="cta-btn cta-dark" href="mailto:hellomuku@gmail.com?subject=HamroBiz%20job%20posting&body=Job%20title%3A%0ACompany%3A%0ALocation%3A%0APay%3A%0ADescription%3A%0A">+ Post a job ($29/30 days)</a>
+  </div>
+  <input id="job-search" type="search" placeholder="Search jobs by title, company, or location&hellip;" autocomplete="off" aria-label="Search jobs">
+  <p id="job-count" class="count"></p>
+  <div id="job-grid" class="grid"></div>
+  <div id="job-empty" class="empty hidden"><p>No jobs match your search.</p></div>
+</div>
+
+<div id="view-housing" class="hidden">
+  <div class="demo-banner">Preview with demo listings. Real community housing postings will appear here at launch.</div>
+  <div class="board-head">
+    <div>
+      <h2 class="section-title">Housing board</h2>
+      <p class="board-sub">Rooms, basements, and rentals shared by the Nepali community in the DMV.</p>
+    </div>
+    <a class="cta-btn cta-dark" href="mailto:hellomuku@gmail.com?subject=HamroBiz%20housing%20listing&body=Title%3A%0ALocation%3A%0ARent%3A%0ADescription%3A%0A">+ List your rental ($19/30 days)</a>
+  </div>
+  <input id="housing-search" type="search" placeholder="Search housing by location or keyword&hellip;" autocomplete="off" aria-label="Search housing">
+  <p id="housing-count" class="count"></p>
+  <div id="housing-grid" class="grid"></div>
+  <div id="housing-empty" class="empty hidden"><p>No housing matches your search.</p></div>
+</div>
 </main>
 
 <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
@@ -70,7 +126,7 @@
     <p><strong>HamroBiz</strong> is a community directory of Nepali-owned businesses in the DMV area.</p>
     <p class="fine">Listings are compiled from public sources. Know a business we're missing, or spot an error?
     <a href="mailto:hellomuku@gmail.com?subject=HamroBiz%20listing%20update">Let us know</a>.
-    Self-serve posting and featured listings are coming soon.</p>
+    Want your business featured, verified, or advertised? <a href="mailto:hellomuku@gmail.com?subject=HamroBiz%20featured%20listing">Ask about business plans</a>.</p>
   </div>
 </footer>
 

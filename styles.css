@@ -140,3 +140,110 @@ body {
   .brand h1 { font-size: 24px; }
   .brand-mark { font-size: 36px; }
 }
+
+/* ---- Monetization MVP ---- */
+
+.main-nav { background: #141a28; }
+.nav-inner { display: flex; gap: 6px; padding-top: 10px; padding-bottom: 10px; }
+.nav-btn {
+  border: none; background: transparent; color: #cbd5e1; font-size: 15px; font-weight: 700;
+  padding: 8px 18px; border-radius: 999px; cursor: pointer;
+}
+.nav-btn:hover { color: #fff; }
+.nav-btn.active { background: var(--crimson); color: #fff; }
+.preview-pill {
+  font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
+  background: #f59e0b; color: #141a28; border-radius: 999px; padding: 2px 8px; margin-left: 4px;
+  vertical-align: 2px;
+}
+
+.section-title { font-size: 20px; margin: 26px 0 12px; }
+
+/* Ad slot */
+.ad-slot {
+  border: 1px dashed #b9ac8f; border-radius: var(--radius); background: #fbf8ef;
+  margin-top: 22px; padding: 14px 18px; position: relative;
+}
+.ad-label {
+  position: absolute; top: -10px; left: 16px; font-size: 10px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.6px; background: #b9ac8f; color: #fff;
+  border-radius: 4px; padding: 2px 8px;
+}
+.ad-body { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.ad-body strong { font-size: 16px; }
+.ad-body p { color: var(--muted); font-size: 13.5px; margin-top: 2px; }
+.ad-cta {
+  background: var(--blue); color: #fff; font-weight: 700; text-decoration: none;
+  padding: 10px 20px; border-radius: 999px; font-size: 14px; white-space: nowrap;
+}
+.ad-cta:hover { background: #002a70; }
+
+/* Featured */
+.featured-row {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 14px; margin-bottom: 8px;
+}
+.featured-card {
+  border: 2px solid #d4a017; background: linear-gradient(180deg, #fffdf5 0%, #ffffff 60%);
+}
+.featured-card.mini .desc {
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.featured-tag {
+  display: inline-block; font-size: 11px; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.5px; color: #8a6100; background: #fbeec1; border-radius: 6px;
+  padding: 3px 10px; margin-bottom: 2px; align-self: flex-start;
+}
+.featured-tag.inline { margin: 0 0 8px 8px; vertical-align: 3px; }
+
+/* Verified badge */
+.verified {
+  font-size: 12px; font-weight: 700; color: #047857; background: #d1fae5;
+  border-radius: 999px; padding: 2px 10px; white-space: nowrap;
+}
+h2 .verified { font-size: 12px; }
+
+/* Premium profile */
+.premium-box {
+  border: 2px solid #d4a017; border-radius: 12px; background: #fffdf5;
+  padding: 14px; margin: 14px 0;
+}
+.premium-head { font-weight: 800; color: #8a6100; font-size: 14px; margin-bottom: 10px; }
+.photo-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+.photo-ph {
+  aspect-ratio: 4 / 3; border-radius: 8px;
+  background: linear-gradient(135deg, #e8e2d6 0%, #d8cfba 50%, #e8e2d6 100%);
+  border: 1px dashed #b9ac8f;
+}
+.premium-note { font-size: 13px; color: var(--muted); }
+
+/* Boards */
+.board-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 6px; }
+.board-head .section-title { margin: 18px 0 4px; }
+.board-sub { color: var(--muted); font-size: 14px; max-width: 560px; }
+.cta-dark { background: var(--crimson); color: #fff; margin-top: 22px; }
+.cta-dark:hover { background: #a00d26; }
+.demo-banner {
+  background: #fef3c7; border: 1px solid #f59e0b; color: #92400e; border-radius: 10px;
+  padding: 10px 16px; font-size: 13.5px; font-weight: 600; margin-top: 22px;
+}
+.demo-tag {
+  font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px;
+  background: #f59e0b; color: #141a28; border-radius: 6px; padding: 3px 8px; white-space: nowrap;
+}
+#job-search, #housing-search {
+  width: 100%; font-size: 16px; padding: 12px 18px; border: 2px solid var(--line);
+  border-radius: 999px; outline: none; margin-top: 14px; background: #fff;
+}
+#job-search:focus, #housing-search:focus { border-color: var(--blue); }
+.job-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+.job-pill {
+  font-size: 12px; font-weight: 700; background: #eef3ff; color: var(--blue);
+  border-radius: 999px; padding: 3px 10px;
+}
+.apply-btn {
+  display: inline-block; margin-top: 6px; background: var(--crimson); color: #fff !important;
+  font-weight: 700; text-decoration: none; padding: 9px 20px; border-radius: 999px;
+  font-size: 14px; text-align: center; align-self: flex-start;
+}
+.apply-btn:hover { background: #a00d26; }

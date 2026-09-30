@@ -1,7 +1,12 @@
 let LISTINGS = [];
+let JOBS = [];
+let HOUSING = [];
 let activeState = "ALL";
 let activeCategory = "";
 let query = "";
+let activeView = "directory";
+let jobQuery = "";
+let housingQuery = "";
 
 const grid = document.getElementById("grid");
 const countEl = document.getElementById("count");
@@ -23,13 +28,20 @@ const CATEGORY_ORDER = [
   "Retail", "Health", "Services", "Other"
 ];
 
-fetch("data/listings.json")
-  .then(r => r.json())
-  .then(data => {
-    LISTINGS = Array.isArray(data) ? data : [];
+Promise.all([
+  fetch("data/listings.json").then(r => r.json()),
+  fetch("data/jobs.json").then(r => r.json()).catch(() => []),
+  fetch("data/housing.json").then(r => r.json()).catch(() => [])
+])
+  .then(([listings, jobs, housing]) => {
+    LISTINGS = Array.isArray(listings) ? listings : [];
+    JOBS = Array.isArray(jobs) ? jobs : [];
+    HOUSING = Array.isArray(housing) ? housing : [];
     buildCategoryOptions();
     buildChips();
     render();
+    renderJobs();
+    renderHousing();
   })
   .catch(() => {
     countEl.textContent = "Could not load listings.";
@@ -110,11 +122,20 @@ function render() {
   grid.innerHTML = "";
   results.forEach(l => {
     const card = document.createElement("article");
-    card.className = "card";
+    card.className = "card" + (l.featured ? " featured-card" : "");
     card.innerHTML =
       `<div class="card-top"><h2></h2><span class="badge"></span></div>` +
+      (l.featured ? `<div class="featured-tag">&#9733; Featured</div>` : "") +
       `<p class="loc"></p><p class="desc"></p><div class="meta"></div>`;
-    card.querySelector("h2").textContent = l.name;
+    const h2 = card.querySelector("h2");
+    h2.textContent = l.name;
+    if (l.verified) {
+      const v = document.createElement("span");
+      v.className = "verified";
+      v.title = "Verified Nepali-owned business";
+      v.textContent = " \u2713 Verified";
+      h2.appendChild(v);
+    }
     card.querySelector(".badge").textContent = l.category || "";
     card.querySelector(".loc").textContent = [l.city, l.state].filter(Boolean).join(", ");
     card.querySelector(".desc").textContent = l.description || "";
@@ -143,6 +164,38 @@ function render() {
     card.onclick = () => openModal(l);
     grid.appendChild(card);
   });
+  renderFeatured();
+}
+
+/* ---- Featured strip ---- */
+
+function renderFeatured() {
+  const section = document.getElementById("featured");
+  const rowEl = document.getElementById("featured-row");
+  const featured = LISTINGS.filter(l => l.featured);
+  const showStrip = !mapView && activeState === "ALL" && !activeCategory && !query && featured.length > 0;
+  section.classList.toggle("hidden", !showStrip);
+  if (!showStrip) return;
+  rowEl.innerHTML = "";
+  featured.forEach(l => {
+    const card = document.createElement("article");
+    card.className = "card featured-card mini";
+    card.innerHTML =
+      `<div class="featured-tag">&#9733; Featured</div>` +
+      `<h2></h2><p class="loc"></p><p class="desc"></p>`;
+    const h2 = card.querySelector("h2");
+    h2.textContent = l.name;
+    if (l.verified) {
+      const v = document.createElement("span");
+      v.className = "verified";
+      v.textContent = " \u2713";
+      h2.appendChild(v);
+    }
+    card.querySelector(".loc").textContent = [l.city, l.state].filter(Boolean).join(", ");
+    card.querySelector(".desc").textContent = l.description || "";
+    card.onclick = () => openModal(l);
+    rowEl.appendChild(card);
+  });
 }
 
 function row(k, vHtml) {
@@ -157,8 +210,10 @@ function openModal(l) {
   const addr = [l.address, l.city, l.state, l.zip].filter(Boolean).join(", ");
   modalBody.innerHTML =
     `<span class="badge">${esc(l.category || "")}</span>` +
-    `<h2>${esc(l.name)}</h2>` +
+    (l.featured ? ` <span class="featured-tag inline">&#9733; Featured</span>` : "") +
+    `<h2>${esc(l.name)}${l.verified ? ' <span class="verified" title="Verified Nepali-owned business">&#10003; Verified</span>' : ""}</h2>` +
     `<p class="loc">${esc([l.city, l.state].filter(Boolean).join(", "))}</p>` +
+    (l.premium ? premiumHtml(l) : "") +
     (l.description ? `<p class="desc">${esc(l.description)}</p>` : "") +
     row("Address", addr ? `<a href="${mapsUrl(l)}" target="_blank" rel="noopener">${esc(addr)}</a>` : "") +
     row("Phone", l.phone ? `<a href="tel:${esc(l.phone.replace(/[^+\d]/g, ""))}">${esc(l.phone)}</a>` : "") +
@@ -177,6 +232,98 @@ function closeModal() {
 document.getElementById("modal-close").onclick = closeModal;
 modal.onclick = e => { if (e.target === modal) closeModal(); };
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+
+/* ---- Premium profile block (demo) ---- */
+
+function premiumHtml(l) {
+  return `<div class="premium-box">` +
+    `<div class="premium-head">&#9733; Premium partner profile</div>` +
+    `<div class="photo-strip"><div class="photo-ph"></div><div class="photo-ph"></div><div class="photo-ph"></div></div>` +
+    `<p class="premium-note">Photo gallery and special offers from this business appear here.</p>` +
+    `</div>`;
+}
+
+/* ---- Jobs board ---- */
+
+function jobMetaSpan(t) {
+  const s = document.createElement("span");
+  s.className = "job-pill";
+  s.textContent = t;
+  return s;
+}
+
+function renderJobs() {
+  const grid = document.getElementById("job-grid");
+  if (!grid) return;
+  const results = JOBS.filter(j =>
+    !jobQuery || [j.title, j.company, j.location, j.description].join(" ").toLowerCase().includes(jobQuery));
+  document.getElementById("job-count").textContent =
+    `Showing ${results.length} of ${JOBS.length} jobs`;
+  document.getElementById("job-empty").classList.toggle("hidden", results.length > 0);
+  grid.innerHTML = "";
+  results.forEach(j => {
+    const card = document.createElement("article");
+    card.className = "card";
+    card.innerHTML =
+      `<div class="card-top"><h2></h2><span class="demo-tag">Demo</span></div>` +
+      `<p class="loc"></p><p class="desc"></p><div class="job-pills"></div>` +
+      `<a class="apply-btn">Apply / inquire</a>`;
+    card.querySelector("h2").textContent = j.title;
+    card.querySelector(".loc").textContent = [j.company, j.location].filter(Boolean).join(" \u00B7 ");
+    card.querySelector(".desc").textContent = j.description || "";
+    const pills = card.querySelector(".job-pills");
+    if (j.type) pills.appendChild(jobMetaSpan(j.type));
+    if (j.pay) pills.appendChild(jobMetaSpan(j.pay));
+    if (j.posted) pills.appendChild(jobMetaSpan("Posted " + j.posted));
+    const a = card.querySelector(".apply-btn");
+    a.href = "mailto:hellomuku@gmail.com?subject=" +
+      encodeURIComponent("Job inquiry: " + j.title + " (" + j.id + ")");
+    a.onclick = e => e.stopPropagation();
+    grid.appendChild(card);
+  });
+}
+
+/* ---- Housing board ---- */
+
+function renderHousing() {
+  const grid = document.getElementById("housing-grid");
+  if (!grid) return;
+  const results = HOUSING.filter(h =>
+    !housingQuery || [h.title, h.location, h.price, h.beds, h.description].join(" ").toLowerCase().includes(housingQuery));
+  document.getElementById("housing-count").textContent =
+    `Showing ${results.length} of ${HOUSING.length} rentals`;
+  document.getElementById("housing-empty").classList.toggle("hidden", results.length > 0);
+  grid.innerHTML = "";
+  results.forEach(h => {
+    const card = document.createElement("article");
+    card.className = "card";
+    card.innerHTML =
+      `<div class="card-top"><h2></h2><span class="demo-tag">Demo</span></div>` +
+      `<p class="loc"></p><p class="desc"></p><div class="job-pills"></div>` +
+      `<a class="apply-btn">Inquire</a>`;
+    card.querySelector("h2").textContent = h.title;
+    card.querySelector(".loc").textContent = h.location || "";
+    card.querySelector(".desc").textContent = h.description || "";
+    const pills = card.querySelector(".job-pills");
+    if (h.price) pills.appendChild(jobMetaSpan(h.price));
+    if (h.beds) pills.appendChild(jobMetaSpan(h.beds));
+    if (h.posted) pills.appendChild(jobMetaSpan("Posted " + h.posted));
+    const a = card.querySelector(".apply-btn");
+    a.href = "mailto:hellomuku@gmail.com?subject=" +
+      encodeURIComponent("Housing inquiry: " + h.title + " (" + h.id + ")");
+    a.onclick = e => e.stopPropagation();
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById("job-search").oninput = e => {
+  jobQuery = e.target.value.trim().toLowerCase();
+  renderJobs();
+};
+document.getElementById("housing-search").oninput = e => {
+  housingQuery = e.target.value.trim().toLowerCase();
+  renderHousing();
+};
 
 document.querySelectorAll(".state-tab").forEach(b => {
   b.onclick = () => {
@@ -202,6 +349,22 @@ searchEl.oninput = () => {
     render();
   }, 180);
 };
+
+/* ---- Main nav: Directory / Jobs / Housing ---- */
+
+const searchBand = document.querySelector(".search-band");
+document.querySelectorAll(".nav-btn").forEach(b => {
+  b.onclick = () => {
+    document.querySelectorAll(".nav-btn").forEach(x => x.classList.remove("active"));
+    b.classList.add("active");
+    activeView = b.dataset.view;
+    document.getElementById("view-directory").classList.toggle("hidden", activeView !== "directory");
+    document.getElementById("view-jobs").classList.toggle("hidden", activeView !== "jobs");
+    document.getElementById("view-housing").classList.toggle("hidden", activeView !== "housing");
+    searchBand.classList.toggle("hidden", activeView !== "directory");
+    if (activeView === "directory" && mapView) setTimeout(() => map && map.invalidateSize(), 50);
+  };
+});
 
 /* ---- Map view ---- */
 

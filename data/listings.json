@@ -1670,7 +1670,8 @@
       "nepali"
     ],
     "lat": 39.0148506,
-    "lng": -76.6983706
+    "lng": -76.6983706,
+    "featured": true
   },
   {
     "id": "md-074",
@@ -1689,7 +1690,10 @@
       "nepali-owned"
     ],
     "lat": 39.0871421,
-    "lng": -76.8770017
+    "lng": -76.8770017,
+    "featured": true,
+    "verified": true,
+    "premium": true
   },
   {
     "id": "dc-012",
@@ -1728,7 +1732,9 @@
       "restaurant"
     ],
     "lat": 38.8996487,
-    "lng": -76.9838453
+    "lng": -76.9838453,
+    "featured": true,
+    "premium": true
   },
   {
     "id": "dc-014",
@@ -1804,7 +1810,8 @@
       "temple"
     ],
     "lat": 39.1712341,
-    "lng": -77.2655648
+    "lng": -77.2655648,
+    "verified": true
   },
   {
     "id": "md-076",
@@ -1823,7 +1830,8 @@
       "religious"
     ],
     "lat": 39.4586541,
-    "lng": -76.4617615
+    "lng": -76.4617615,
+    "verified": true
   },
   {
     "id": "md-077",
@@ -1880,7 +1888,8 @@
       "nepali-owned"
     ],
     "lat": 39.1734829,
-    "lng": -76.8582874
+    "lng": -76.8582874,
+    "verified": true
   },
   {
     "id": "md-079",
@@ -1899,7 +1908,9 @@
       "nepali"
     ],
     "lat": 39.3639964,
-    "lng": -76.4521842
+    "lng": -76.4521842,
+    "featured": true,
+    "verified": true
   },
   {
     "id": "md-080",
@@ -1936,6 +1947,7 @@
       "photography"
     ],
     "lat": 39.2908816,
-    "lng": -76.610759
+    "lng": -76.610759,
+    "verified": true
   }
 ]
