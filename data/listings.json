@@ -1690,5 +1690,42 @@
     ],
     "lat": 36.8496579,
     "lng": -75.9760751
+  },
+  {
+    "id": "md-073",
+    "name": "Crofton Bazaar",
+    "category": "Grocery",
+    "address": "2431 Crofton Ln #5",
+    "city": "Crofton",
+    "state": "MD",
+    "zip": "21114",
+    "phone": "(443) 292-9706",
+    "website": "https://croftonbazaar.com/",
+    "description": "Nepali, Indian, Pakistani and Bangladeshi grocery store in Crofton; fresh produce, halal meat, open daily 9am-9pm.",
+    "tags": [
+      "grocery",
+      "halal",
+      "nepali"
+    ],
+    "lat": 39.0148506,
+    "lng": -76.6983706
+  },
+  {
+    "id": "md-074",
+    "name": "Bella Indian and Italian Cuisine",
+    "category": "Restaurant",
+    "address": "7423 Van Dusen Rd",
+    "city": "Laurel",
+    "state": "MD",
+    "zip": "20707",
+    "phone": "(301) 490-6348",
+    "website": "https://www.bellaindiananditaliancuisine.com/",
+    "description": "Indian and Italian fusion restaurant in Laurel with wood-fired pizza; Nepali connection via its 'Bella Nepal' Facebook page, ownership unconfirmed.",
+    "tags": [
+      "nepali",
+      "restaurant"
+    ],
+    "lat": 39.0871421,
+    "lng": -76.8770017
   }
 ]
