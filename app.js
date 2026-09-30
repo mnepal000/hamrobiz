@@ -79,6 +79,11 @@ function mapsUrl(l) {
   return "https://www.google.com/maps/search/?api=1&query=" + q;
 }
 
+function reviewsUrl(l) {
+  const q = encodeURIComponent([l.name, l.address, l.city, l.state].filter(Boolean).join(", "));
+  return "https://www.google.com/maps/search/?api=1&query=" + q;
+}
+
 function render() {
   const results = LISTINGS.filter(matches);
   countEl.textContent = results.length === LISTINGS.length
@@ -128,6 +133,13 @@ function render() {
       a.onclick = e => e.stopPropagation();
       meta.appendChild(a);
     }
+    {
+      const a = document.createElement("a");
+      a.href = reviewsUrl(l); a.target = "_blank"; a.rel = "noopener";
+      a.textContent = "\u2605 Reviews";
+      a.onclick = e => e.stopPropagation();
+      meta.appendChild(a);
+    }
     card.onclick = () => openModal(l);
     grid.appendChild(card);
   });
@@ -151,6 +163,7 @@ function openModal(l) {
     row("Address", addr ? `<a href="${mapsUrl(l)}" target="_blank" rel="noopener">${esc(addr)}</a>` : "") +
     row("Phone", l.phone ? `<a href="tel:${esc(l.phone.replace(/[^+\d]/g, ""))}">${esc(l.phone)}</a>` : "") +
     row("Website", l.website ? `<a href="${esc(l.website)}" target="_blank" rel="noopener">Visit site</a>` : "") +
+    row("Reviews", `<a href="${reviewsUrl(l)}" target="_blank" rel="noopener">Read Google reviews</a>`) +
     ((l.tags && l.tags.length) ? `<div class="tag-list">${l.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : "");
   modal.classList.remove("hidden");
   document.body.style.overflow = "hidden";
@@ -229,6 +242,7 @@ function popupHtml(l) {
   let links = [];
   if (addr) links.push(`<a href="${mapsUrl(l)}" target="_blank" rel="noopener">Directions</a>`);
   if (l.website) links.push(`<a href="${esc(l.website)}" target="_blank" rel="noopener">Website</a>`);
+  links.push(`<a href="${reviewsUrl(l)}" target="_blank" rel="noopener">\u2605 Google reviews</a>`);
   if (links.length) h += `<p>${links.join(" &middot; ")}</p>`;
   return h;
 }

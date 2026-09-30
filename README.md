@@ -35,7 +35,7 @@ Retail, Health, Services, Other.
 
 ## Roadmap
 
-- Phase 1 (now): seeded static directory, "suggest a business" via email.
+- Phase 1 (now): seeded static directory, "suggest a business" via email. Every listing links out to its Google reviews; a native HamroBiz rating system is planned later.
 - Phase 2: self-serve posting with moderation queue (Supabase free tier).
 - Phase 3: jobs board (post a job / looking-for-job) + paid featured listings via Stripe.
 
