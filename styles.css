@@ -71,8 +71,8 @@ body {
   display: flex; flex-direction: column; gap: 8px;
 }
 .card:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,0,0,0.08); }
-.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
-.card h2 { font-size: 17px; line-height: 1.3; }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; flex-wrap: wrap; }
+.card h2 { font-size: 17px; line-height: 1.3; min-width: 0; }
 .badge {
   font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px;
   background: #eef3ff; color: var(--blue); border-radius: 6px; padding: 3px 8px; white-space: nowrap;
@@ -139,15 +139,28 @@ body {
 @media (max-width: 560px) {
   .brand h1 { font-size: 24px; }
   .brand-mark { font-size: 36px; }
+  .site-header { padding: 20px 0; }
+  .search-band { padding: 16px 0 12px; }
+  .nav-btn { font-size: 14px; padding: 8px 14px; }
+  .preview-pill { margin-left: 2px; }
+  .modal-card { padding: 22px 18px; }
+  .modal-card h2 { font-size: 19px; }
+  #category { max-width: 100%; }
+  .count { margin: 16px 0 10px; }
 }
 
 /* ---- Monetization MVP ---- */
 
 .main-nav { background: #141a28; }
-.nav-inner { display: flex; gap: 6px; padding-top: 10px; padding-bottom: 10px; }
+.nav-inner {
+  display: flex; gap: 6px; padding-top: 10px; padding-bottom: 10px;
+  flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.nav-inner::-webkit-scrollbar { display: none; }
 .nav-btn {
   border: none; background: transparent; color: #cbd5e1; font-size: 15px; font-weight: 700;
-  padding: 8px 18px; border-radius: 999px; cursor: pointer;
+  padding: 8px 18px; border-radius: 999px; cursor: pointer; flex: 0 0 auto;
 }
 .nav-btn:hover { color: #fff; }
 .nav-btn.active { background: var(--crimson); color: #fff; }
@@ -251,7 +264,8 @@ h2 .verified { font-size: 12px; }
 /* Event cards */
 .event-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
 .event-card { border-top: 3px solid #d4a017; }
-.event-top { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: .6rem; }
+.event-top { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: .6rem; flex-wrap: wrap; }
+.event-top > div { min-width: 0; flex: 1 1 160px; }
 .event-top h2 { font-size: 1.12rem; margin: 0; }
 .event-date {
   flex: 0 0 auto; width: 58px; text-align: center;
