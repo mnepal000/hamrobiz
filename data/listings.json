@@ -77,25 +77,6 @@
     "lng": -77.0312393
   },
   {
-    "id": "dc-007",
-    "name": "Laliguras Indian & Nepali Bistro",
-    "category": "Restaurant",
-    "address": "4221-B Connecticut Ave NW",
-    "city": "Washington",
-    "state": "DC",
-    "zip": "20008",
-    "phone": "(202) 735-5097",
-    "website": "https://www.laligurasindiannepalibistro.com/",
-    "description": "Indian and Nepali bistro in Forest Hills; recent menu pages still show it active.",
-    "tags": [
-      "nepali",
-      "indian",
-      "bistro"
-    ],
-    "lat": 38.9354802,
-    "lng": -77.0584626
-  },
-  {
     "id": "dc-004",
     "name": "Moh Moh Licious",
     "category": "Restaurant",
@@ -1728,5 +1709,120 @@
     ],
     "lat": 39.0871421,
     "lng": -76.8770017
+  },
+  {
+    "id": "dc-012",
+    "name": "Tikka",
+    "category": "Restaurant",
+    "address": "4221 Connecticut Ave NW Ste B",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20008",
+    "phone": "(202) 450-1650",
+    "website": "https://tikkadc.site/",
+    "description": "North Indian and Nepali restaurant in the Van Ness neighborhood. Nepali ownership unconfirmed.",
+    "tags": [
+      "momo",
+      "nepali",
+      "restaurant"
+    ],
+    "lat": 38.9437618,
+    "lng": -77.0628183
+  },
+  {
+    "id": "dc-013",
+    "name": "Daru",
+    "category": "Restaurant",
+    "address": "1451 Maryland Ave NE",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20002",
+    "phone": "(202) 388-1848",
+    "website": "https://www.darudc.com/",
+    "description": "Bib Gourmand-winning Indian-inspired restaurant and cocktail bar on H Street, co-owned by Nepal-born chef Suresh Sundas of Kathmandu; menu features bison momos and duck choila.",
+    "tags": [
+      "momo",
+      "nepali",
+      "nepali-owned",
+      "restaurant"
+    ],
+    "lat": 38.8996487,
+    "lng": -76.9838453
+  },
+  {
+    "id": "dc-014",
+    "name": "Tapori",
+    "category": "Restaurant",
+    "address": "600 H St NE",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20002",
+    "phone": "(202) 204-2096",
+    "website": "http://www.taporidc.com/",
+    "description": "H Street street-food restaurant and cocktail bar from the Daru team; Nepalese chef Suresh Sundas puts bison momo, duck choila and keema chow mein on an Indian street-food menu.",
+    "tags": [
+      "momo",
+      "nepali",
+      "nepali-owned",
+      "restaurant"
+    ],
+    "lat": 38.9003889,
+    "lng": -76.9967886
+  },
+  {
+    "id": "dc-015",
+    "name": "Angels Brows Shaping",
+    "category": "Beauty & Wellness",
+    "address": "1356 U St NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20009",
+    "phone": "(202) 918-1617",
+    "website": "https://angelsbrowsnpk.vercel.app/",
+    "description": "Eyebrow threading, tinting, lash extensions, facials and waxing studio on U Street, rated 4.9 across 200+ reviews. Ownership unconfirmed.",
+    "tags": [
+      "beauty",
+      "nepali"
+    ],
+    "lat": 38.9168281,
+    "lng": -77.0316674
+  },
+  {
+    "id": "va-046",
+    "name": "Bandita Sharma-Dahal, Dahal And Associates, LLC",
+    "category": "Legal & Immigration",
+    "address": "6109 Arlington Blvd",
+    "city": "Falls Church",
+    "state": "VA",
+    "zip": "22044",
+    "phone": "(703) 532-3575",
+    "website": "https://banditaimmigrationlaw.com",
+    "description": "Nepali-born immigration attorney, licensed in DC and NY and an AILA member; office in Falls Church.",
+    "tags": [
+      "immigration",
+      "lawyer",
+      "nepali-owned"
+    ],
+    "lat": 38.8703682,
+    "lng": -77.1710131
+  },
+  {
+    "id": "md-075",
+    "name": "Nepal Education and Cultural Center (NECC)",
+    "category": "Other",
+    "address": "11650 Snowden Farm Pkwy",
+    "city": "Germantown",
+    "state": "MD",
+    "zip": "20876",
+    "phone": "(202) 816-6322",
+    "website": "https://neccusa.org/",
+    "description": "Nepali-American community cornerstone since 2000; runs the Pashupati-Buddha Mandir, Nepali Pathshala classes, yoga, health clinics and festival celebrations.",
+    "tags": [
+      "community",
+      "nepali",
+      "temple"
+    ],
+    "lat": 39.1712341,
+    "lng": -77.2655648
   }
 ]
