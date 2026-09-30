@@ -1601,5 +1601,94 @@
     ],
     "lat": 38.2667086,
     "lng": -77.143722
+  },
+  {
+    "id": "va-041",
+    "name": "MOMO Kitchen",
+    "category": "Restaurant",
+    "address": "2401 Hampton Blvd Ste 103",
+    "city": "Norfolk",
+    "state": "VA",
+    "zip": "",
+    "phone": "(757) 335-4949",
+    "website": "http://www.momokitchenus.com/",
+    "description": "Nepalese restaurant in Norfolk's Railyard District specializing in momo dumplings, curries and soups, with dine-in, takeout and delivery.",
+    "tags": [
+      "momo",
+      "nepali"
+    ],
+    "lat": 36.875063,
+    "lng": -76.3022737
+  },
+  {
+    "id": "va-042",
+    "name": "Aago",
+    "category": "Restaurant",
+    "address": "12368 Warwick Blvd",
+    "city": "Newport News",
+    "state": "VA",
+    "zip": "",
+    "phone": "(757) 310-6457",
+    "website": "http://www.aagorestaurant.com/aagocnu/shop/",
+    "description": "Indian and Nepalese restaurant near Christopher Newport University, serving Himalayan and Indian dishes; ownership unconfirmed.",
+    "tags": [
+      "nepali"
+    ],
+    "lat": 37.0662565,
+    "lng": -76.4913304
+  },
+  {
+    "id": "va-043",
+    "name": "Curry & Kebab Indian Cuisine",
+    "category": "Restaurant",
+    "address": "817 Botetourt Ct",
+    "city": "Chesapeake",
+    "state": "VA",
+    "zip": "",
+    "phone": "(757) 819-6821",
+    "website": "https://thecurrynkebab.com/",
+    "description": "Indian restaurant in Chesapeake serving chicken momos among its dishes; Nepali ownership unconfirmed.",
+    "tags": [
+      "momo",
+      "nepali"
+    ],
+    "lat": 36.7493243,
+    "lng": -76.24414
+  },
+  {
+    "id": "va-044",
+    "name": "Nepalese Community of Hampton Roads",
+    "category": "Other",
+    "address": "",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "zip": "",
+    "phone": "",
+    "website": "https://www.nchrva.org/",
+    "description": "Active nonprofit serving the Nepali community in Hampton Roads, organizing cultural events including Nepali New Year and Dashain/Tihar celebrations; contact nchrvaus@gmail.com.",
+    "tags": [
+      "community",
+      "nepali"
+    ],
+    "lat": 36.8496579,
+    "lng": -75.9760751
+  },
+  {
+    "id": "va-045",
+    "name": "Sneha Rana",
+    "category": "Real Estate",
+    "address": "",
+    "city": "Virginia Beach",
+    "state": "VA",
+    "zip": "",
+    "phone": "",
+    "website": "https://www.homes.com/real-estate-agents/sneha-rana/wz44hdk/",
+    "description": "Real estate agent with Seaside Realty serving Norfolk, Virginia Beach, Chesapeake and Suffolk. Nepali origin unconfirmed (surname-based only).",
+    "tags": [
+      "nepali",
+      "realtor"
+    ],
+    "lat": 36.8496579,
+    "lng": -75.9760751
   }
 ]
