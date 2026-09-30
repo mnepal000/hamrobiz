@@ -187,6 +187,78 @@
     ]
   },
   {
+    "address": "1509 Philadelphia Ave",
+    "category": "Restaurant",
+    "city": "Ocean City",
+    "description": "Ocean City restaurant with an explicitly Indian & Nepalese menu: momos, chili chicken, curries, naan; owners describe cooking the flavors of Nepal. Nepali ownership unconfirmed from online sources.",
+    "id": "md-071",
+    "name": "Asian Garden",
+    "phone": "(410) 289-7423",
+    "state": "MD",
+    "tags": [
+      "momo",
+      "nepali",
+      "indian"
+    ],
+    "zip": "21842",
+    "website": ""
+  },
+  {
+    "address": "710 Concourse Cir Ste 101",
+    "category": "Restaurant",
+    "city": "Middle River",
+    "description": "Authentic Nepalese BBQ (sekuwa) restaurant with a history stretching over 4 decades; the brand's Baltimore-area location.",
+    "id": "md-016",
+    "name": "Bajeko Sekuwa Baltimore",
+    "phone": "(410) 630-2044",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "sekuwa",
+      "bbq",
+      "middle-river"
+    ],
+    "website": "https://www.bajekosekuwa.com/",
+    "zip": "21220"
+  },
+  {
+    "address": "2906 Taylor Ave",
+    "category": "Services",
+    "city": "Parkville",
+    "description": "Nonprofit established 2005 serving the Nepali-American community in Baltimore and Maryland; community resource center in Parkville, immigration support, language classes, youth and senior programs, 5,000+ members.",
+    "id": "md-027",
+    "name": "Baltimore Association of Nepalese in America (BANA)",
+    "phone": "(410) 657-9373",
+    "state": "MD",
+    "tags": [
+      "community",
+      "nonprofit",
+      "immigration-support",
+      "nepali-language",
+      "parkville"
+    ],
+    "website": "https://banaonline.org/",
+    "zip": "21234"
+  },
+  {
+    "address": "5325 Village Center Dr",
+    "category": "Restaurant",
+    "city": "Columbia",
+    "description": "Indo-Nepalese restaurant in Columbia known for hand-rolled momos; 4.8 stars.",
+    "id": "md-021",
+    "name": "Curry & Kabob",
+    "phone": "(410) 715-8777",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "momo",
+      "columbia"
+    ],
+    "website": "https://curryandkebob.com/",
+    "zip": "21044"
+  },
+  {
     "id": "md-005",
     "name": "Curry Place",
     "category": "Restaurant",
@@ -206,6 +278,41 @@
     ]
   },
   {
+    "address": "45315 Alton Ln Suite 16062",
+    "category": "Grocery",
+    "city": "California",
+    "description": "South Asian grocery in California, St. Mary's County, carrying Nepali and Indian staples, spices and snacks. Nepali ownership unconfirmed; presents itself as a 'Desi' (South Asian) store online.",
+    "id": "md-072",
+    "name": "Desi Grocery",
+    "phone": "(240) 663-1727",
+    "state": "MD",
+    "tags": [
+      "grocery",
+      "south-asian",
+      "spices"
+    ],
+    "website": "https://desigrocery.net",
+    "zip": "20619"
+  },
+  {
+    "address": "105 2nd St",
+    "category": "Restaurant",
+    "city": "Ocean City",
+    "description": "Family-run Nepali & Indian eatery in Ocean City ('We serve what we eat'); momos, chicken sekuwa, chow mein, curries, open late. Second location with dine-in at 6301 Coastal Hwy, OCMD, (443) 944-4943 (opened July 2026); also trades as 'Everest Kitchen'.",
+    "id": "md-070",
+    "name": "Everest Carryout",
+    "phone": "(443) 944-6409",
+    "state": "MD",
+    "tags": [
+      "momo",
+      "nepali",
+      "indian",
+      "late-night"
+    ],
+    "website": "https://everestcarryout.com/",
+    "zip": "21842"
+  },
+  {
     "id": "md-003",
     "name": "Ghar E Kabab",
     "category": "Restaurant",
@@ -222,6 +329,171 @@
       "catering",
       "restaurant"
     ]
+  },
+  {
+    "address": "3531 John Simmons St",
+    "category": "Restaurant",
+    "city": "Frederick",
+    "description": "Frederick restaurant serving Indian and Himalayan/Nepali cuisine, including momos and biryani; a 2026 reviewer describes it as Nepali and Indian cuisine. Nepali ownership not independently confirmed; the link is cuisine-based.",
+    "id": "md-040",
+    "name": "Grace of India",
+    "phone": "(301) 874-5000",
+    "state": "MD",
+    "tags": [
+      "Nepali",
+      "Indian",
+      "Himalayan",
+      "momo",
+      "biryani"
+    ],
+    "website": "http://graceofindiafrederick.com/",
+    "zip": ""
+  },
+  {
+    "address": "1522 E Fort Ave",
+    "category": "Restaurant",
+    "city": "Baltimore",
+    "description": "Nepalese, Indian, Tibetan and American dishes on E Fort Ave; 4.7 stars, momos, biryani, currently open.",
+    "id": "md-013",
+    "name": "Himalayan House",
+    "phone": "(410) 528-1271",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "tibetan",
+      "momo",
+      "locust-point"
+    ],
+    "website": "https://www.thehimalayanhouse.com/",
+    "zip": "21230"
+  },
+  {
+    "id": "md-029",
+    "name": "Himalayan Tax & Accounting",
+    "category": "Tax & Accounting",
+    "address": "3615 E Joppa Rd #250",
+    "city": "Parkville",
+    "state": "MD",
+    "zip": "21234",
+    "phone": "(443) 653-7780",
+    "website": "https://himalayantaxaccounting.business.site/",
+    "description": "Tax preparation, bookkeeping, payroll and entity formation; IRS-registered preparer on staff. Listed hours Mon-Fri 9-6; call ahead to confirm.",
+    "tags": [
+      "tax",
+      "accounting",
+      "bookkeeping",
+      "payroll"
+    ]
+  },
+  {
+    "address": "9350 Snowden River Pkwy",
+    "category": "Restaurant",
+    "city": "Columbia",
+    "description": "Columbia restaurant and bar serving Indian and Nepali cuisine since 2001.",
+    "id": "md-022",
+    "name": "House of India",
+    "phone": "(410) 381-3844",
+    "state": "MD",
+    "tags": [
+      "indian",
+      "nepali",
+      "bar",
+      "columbia"
+    ],
+    "website": "https://www.houseofindiarestaurantbar.com/",
+    "zip": "21046"
+  },
+  {
+    "address": "22 Allegheny Ave",
+    "category": "Restaurant",
+    "city": "Towson",
+    "description": "Towson restaurant with Indian dishes flavored by authentic Indian and Nepalese spices; chicken momo, chilli momo, lamb biryani; 4.6 stars, catering available.",
+    "id": "md-018",
+    "name": "Kathmandu Kitchen",
+    "phone": "(410) 847-9595",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "momo",
+      "catering",
+      "towson"
+    ],
+    "website": "https://mykathmandukitchen.com/",
+    "zip": "21204"
+  },
+  {
+    "address": "",
+    "category": "Real Estate",
+    "city": "Nottingham",
+    "description": "Nepali-speaking realtor serving the Baltimore metro area; 15 years experience, UMBC graduate, speaks English, Hindi and Nepali.",
+    "id": "md-024",
+    "name": "Kris Ghimire (Ghimire Homes)",
+    "phone": "(410) 497-5238",
+    "state": "MD",
+    "tags": [
+      "realtor",
+      "nepali-speaking",
+      "baltimore-metro"
+    ],
+    "website": "https://www.homes.com/real-estate-agents/kris-ghimire/vkrj9ef/",
+    "zip": "21236"
+  },
+  {
+    "address": "911 N Charles St",
+    "category": "Restaurant",
+    "city": "Baltimore",
+    "description": "Nepalese and Indian restaurant and bar in Mount Vernon; known for lamb chops, steaming chicken momos and garlic naan.",
+    "id": "md-011",
+    "name": "Kumari Restaurant & Bar (Mount Vernon)",
+    "phone": "(410) 547-1600",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "momo",
+      "bar",
+      "mount-vernon"
+    ],
+    "website": "https://www.kumarirestaurant.net/",
+    "zip": "21201"
+  },
+  {
+    "address": "847 E Fort Ave",
+    "category": "Restaurant",
+    "city": "Baltimore",
+    "description": "Second Baltimore location of the Kumari brand (Locust Point / Fort Ave) serving Nepalese and Indian food; separate branch from the Mount Vernon spot.",
+    "id": "md-012",
+    "name": "Kumari Restaurant (Locust Point)",
+    "phone": "(410) 576-2222",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "locust-point"
+    ],
+    "website": "https://www.kumarirestaurantbaltimore.com/",
+    "zip": "21230"
+  },
+  {
+    "address": "112 N Eutaw St stall t23",
+    "category": "Restaurant",
+    "city": "Baltimore",
+    "description": "Nepali-Indian food stall in Lexington Market (stall T23); thakali khana, chicken daal, aloo dum; currently open.",
+    "id": "md-017",
+    "name": "Lumbini Fusion: Nepali Indian Cuisine",
+    "phone": "(667) 409-1158",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "thakali",
+      "food-stall",
+      "lexington-market"
+    ],
+    "website": "https://lumbinifusion.com/",
+    "zip": "21201"
   },
   {
     "id": "md-006",
@@ -290,6 +562,60 @@
     ]
   },
   {
+    "address": "12250 Clarksville Pike Ste A",
+    "category": "Restaurant",
+    "city": "Clarksville",
+    "description": "Handcrafted Nepalese dumpling shop in a Clarksville food court; chicken jhol momo, water buffalo momo, keema noodles. Same brand as the Silver Spring location (md-001).",
+    "id": "md-023",
+    "name": "MoMo Hub (Clarksville)",
+    "phone": "(667) 319-8708",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "momo",
+      "food-court",
+      "clarksville"
+    ],
+    "website": "http://momohubmd.com/",
+    "zip": "21029"
+  },
+  {
+    "address": "600 E Pratt St #105",
+    "category": "Restaurant",
+    "city": "Baltimore",
+    "description": "Inner Harbor branch of the Nepalese/Indian Mount Everest brand; Mt. Everest momo, aloo fry, dahi chaat papri.",
+    "id": "md-014",
+    "name": "Mount Everest Restaurant (Inner Harbor)",
+    "phone": "(443) 869-6924",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "momo",
+      "inner-harbor"
+    ],
+    "website": "https://www.mounteverestinnerharbor.com/",
+    "zip": "21202"
+  },
+  {
+    "address": "1011 W 36th St",
+    "category": "Restaurant",
+    "city": "Baltimore",
+    "description": "Hampden restaurant and bar serving North Indian dishes with Nepalese influences; 4.9 stars, Nepali/Indian lunch combo.",
+    "id": "md-015",
+    "name": "Mount Everest Restaurant and Bar",
+    "phone": "(410) 366-1163",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "bar",
+      "hampden"
+    ],
+    "website": "http://www.mounteverestrestaurant.net/",
+    "zip": "21211"
+  },
+  {
     "id": "md-009",
     "name": "My Eyebrow Threading and Skin Care",
     "category": "Beauty & Wellness",
@@ -306,6 +632,81 @@
       "eyebrow-threading",
       "skin-care"
     ]
+  },
+  {
+    "address": "920 N Charles St",
+    "category": "Restaurant",
+    "city": "Baltimore",
+    "description": "Mount Vernon fine-dining spot for Nepali, Indian, Pakistani and Bengali cuisine with a full bar; daily lunch buffet, momos, 4.8 stars on 136 reviews.",
+    "id": "md-010",
+    "name": "Nepal House",
+    "phone": "(410) 547-0001",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "momo",
+      "lunch-buffet",
+      "bar",
+      "mount-vernon"
+    ],
+    "website": "https://www.thenepalhouse.com/",
+    "zip": "21201"
+  },
+  {
+    "id": "md-028",
+    "name": "Nepali & African Grocery Inc",
+    "category": "Grocery",
+    "address": "5428 Sinclair Ln #A",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21206",
+    "phone": "+1 240-435-1311",
+    "website": "",
+    "description": "Nepali and African grocery store; Nepali spices, produce and hard-to-find ingredients.",
+    "tags": [
+      "grocery",
+      "nepali",
+      "african",
+      "spices"
+    ]
+  },
+  {
+    "address": "338 N Charles St",
+    "category": "Beauty & Wellness",
+    "city": "Baltimore",
+    "description": "Nepali and Indian clothing boutique plus threading, henna, lash extensions, organic hair oil massage; currently open.",
+    "id": "md-025",
+    "name": "Pari Boutique",
+    "phone": "(410) 301-5759",
+    "state": "MD",
+    "tags": [
+      "threading",
+      "henna",
+      "nepali-clothing",
+      "boutique",
+      "mount-vernon"
+    ],
+    "website": "https://pariboutique2020.com/",
+    "zip": "21201"
+  },
+  {
+    "address": "6490 Dobbin Rd",
+    "category": "Grocery",
+    "city": "Columbia",
+    "description": "South Asian grocery in Columbia that self-describes as serving Nepali grocery needs along with Indian and Pakistani products; halal meat counter, spices, dry goods. Nepali ownership not independently confirmed.",
+    "id": "md-026",
+    "name": "Punjab SuperMarket & Halal Meat",
+    "phone": "",
+    "state": "MD",
+    "tags": [
+      "grocery",
+      "halal",
+      "south-asian",
+      "columbia"
+    ],
+    "website": "https://punjabsupermarketmd.com/",
+    "zip": "21045"
   },
   {
     "id": "md-007",
@@ -326,6 +727,24 @@
     ]
   },
   {
+    "address": "4501 Falls Rd",
+    "category": "Restaurant",
+    "city": "Baltimore",
+    "description": "Nepalese food truck in Baltimore City; jhol momo, laphing, veg and chicken momo, chicken chowmein. Newer operation, status may vary.",
+    "id": "md-020",
+    "name": "Sherpa Street Eats",
+    "phone": "(443) 858-8278",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "food-truck",
+      "momo",
+      "laphing"
+    ],
+    "website": "https://restaurant.orderq.us/restaurants/sherpa-street-eats",
+    "zip": "21211"
+  },
+  {
     "id": "md-008",
     "name": "Subas Adhikari",
     "category": "Real Estate",
@@ -341,6 +760,44 @@
       "real-estate",
       "name-based"
     ]
+  },
+  {
+    "address": "9810 Belair Rd",
+    "category": "Restaurant",
+    "city": "Perry Hall",
+    "description": "Indian/Nepalese restaurant leading with Nepali momo (buff, chicken, fried, chilli, jhol); daily lunch buffet, takeout, family-friendly.",
+    "id": "md-019",
+    "name": "Taste of Taj",
+    "phone": "(410) 609-7662",
+    "state": "MD",
+    "tags": [
+      "nepali",
+      "indian",
+      "momo",
+      "lunch-buffet",
+      "perry-hall"
+    ],
+    "website": "https://www.tasteoftaj.com/",
+    "zip": "21128"
+  },
+  {
+    "address": "400 N Center St Ste 260",
+    "category": "Restaurant",
+    "city": "Westminster",
+    "description": "Veteran-owned Westminster spot serving Indian and Nepalese curries and momos alongside pizza, burgers, and wings. Nepali link is cuisine-based; ownership not independently confirmed.",
+    "id": "md-041",
+    "name": "Vinny's Curry & Pie",
+    "phone": "(410) 871-4140",
+    "state": "MD",
+    "tags": [
+      "Nepali",
+      "Indian",
+      "momo",
+      "curry",
+      "pizza"
+    ],
+    "website": "http://vinnysmd.com/",
+    "zip": ""
   },
   {
     "address": "12500 Fair Lakes Cir, Ste 290",
