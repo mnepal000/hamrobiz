@@ -2051,5 +2051,45 @@
     ],
     "lat": 39.2908816,
     "lng": -76.610759
+  },
+  {
+    "id": "md-086",
+    "name": "Holiday Inn Washington D.C. - Greenbelt MD",
+    "category": "Hotel",
+    "address": "7200 Hanover Dr Building 1",
+    "city": "Greenbelt",
+    "state": "MD",
+    "zip": "20770",
+    "phone": "(301) 982-7000",
+    "website": "https://www.ihg.com/holidayinn/hotels/us/en/greenbelt/wasgb/hoteldetail",
+    "description": "Nepali-owned full-service Holiday Inn near the University of Maryland and Greenbelt Metro, with outdoor pool, meeting rooms and on-site Indo-Nepali restaurant Mandala.",
+    "tags": [
+      "nepali-owned",
+      "hotel",
+      "lodging"
+    ],
+    "lat": 38.989295,
+    "lng": -76.882076
+  },
+  {
+    "id": "md-087",
+    "name": "Mandala Indo-Nepali Grill and Bar",
+    "category": "Restaurant",
+    "address": "7200 Hanover Dr (inside Holiday Inn Greenbelt)",
+    "city": "Greenbelt",
+    "state": "MD",
+    "zip": "20770",
+    "phone": "",
+    "website": "https://www.doordash.com/store/mandala-indo-nepali-grill-and-bar-greenbelt-48675981/",
+    "description": "Indo-Nepali grill and bar inside the Holiday Inn Greenbelt, serving butter chicken, chicken 65, samosas, pakoras and more. Delivery and pickup via DoorDash.",
+    "tags": [
+      "nepali-owned",
+      "nepali",
+      "indian",
+      "bar",
+      "grill"
+    ],
+    "lat": 38.989295,
+    "lng": -76.882076
   }
 ]

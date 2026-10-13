@@ -26,7 +26,7 @@ let mapView = false, map = null, markerLayer = null;
 
 const CATEGORY_ORDER = [
   "Restaurant", "Grocery", "Remittance & Finance", "Tax & Accounting",
-  "Real Estate", "Legal & Immigration", "Driving School", "Travel",
+  "Real Estate", "Legal & Immigration", "Driving School", "Travel", "Hotel",
   "Beauty & Wellness", "Photography & Videography",
   "Retail", "Health", "Religious", "Services", "Other"
 ];
