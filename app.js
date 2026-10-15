@@ -4,6 +4,9 @@ let HOUSING = [];
 let EVENTS = [];
 let activeState = "ALL";
 let activeCategory = "";
+let activeCity = "";
+let verifiedOnly = false;
+let featuredOnly = false;
 let query = "";
 let activeView = "directory";
 let jobQuery = "";
@@ -14,8 +17,12 @@ const grid = document.getElementById("grid");
 const countEl = document.getElementById("count");
 const emptyEl = document.getElementById("empty");
 const searchEl = document.getElementById("search");
-const categoryEl = document.getElementById("category");
-const chipsEl = document.getElementById("chips");
+const filtersEl = document.getElementById("filters");
+const filterCatsEl = document.getElementById("filter-cats");
+const filterStatesEl = document.getElementById("filter-states");
+const filterCityEl = document.getElementById("filter-city");
+const filtersToggle = document.getElementById("filters-toggle");
+const filtersCount = document.getElementById("filters-count");
 const modal = document.getElementById("modal");
 const modalBody = document.getElementById("modal-body");
 const mapWrap = document.getElementById("map-wrap");
@@ -42,8 +49,7 @@ Promise.all([
     JOBS = Array.isArray(jobs) ? jobs : [];
     HOUSING = Array.isArray(housing) ? housing : [];
     EVENTS = Array.isArray(events) ? events : [];
-    buildCategoryOptions();
-    buildChips();
+    buildFilters();
     render();
     renderJobs();
     renderHousing();
@@ -53,43 +59,113 @@ Promise.all([
     countEl.textContent = "Could not load listings.";
   });
 
-function buildCategoryOptions() {
+const STATES = [
+  { v: "ALL", label: "All DMV" },
+  { v: "DC", label: "Washington DC" },
+  { v: "MD", label: "Maryland" },
+  { v: "VA", label: "Virginia" },
+];
+
+function orderedCategories() {
   const present = [...new Set(LISTINGS.map(l => l.category).filter(Boolean))];
-  const ordered = CATEGORY_ORDER.filter(c => present.includes(c))
+  return CATEGORY_ORDER.filter(c => present.includes(c))
     .concat(present.filter(c => !CATEGORY_ORDER.includes(c)).sort());
-  ordered.forEach(c => {
-    const o = document.createElement("option");
-    o.value = c; o.textContent = c;
-    categoryEl.appendChild(o);
-  });
 }
 
-function buildChips() {
-  const present = [...new Set(LISTINGS.map(l => l.category).filter(Boolean))];
-  const ordered = CATEGORY_ORDER.filter(c => present.includes(c));
-  ordered.forEach(c => {
-    const b = document.createElement("button");
-    b.className = "chip"; b.textContent = c;
-    b.onclick = () => {
-      activeCategory = activeCategory === c ? "" : c;
-      categoryEl.value = activeCategory;
-      document.querySelectorAll(".chip").forEach(x =>
-        x.classList.toggle("active", x.textContent === activeCategory));
-      render();
-    };
-    chipsEl.appendChild(b);
-  });
-}
-
-function matches(l) {
-  if (activeState !== "ALL" && l.state !== activeState) return false;
-  if (activeCategory && l.category !== activeCategory) return false;
+// like matches(), but ignoring one dimension, so counts stay faceted
+function matchesExcept(l, except) {
+  if (except !== "state" && activeState !== "ALL" && l.state !== activeState) return false;
+  if (except !== "city" && activeCity && l.city !== activeCity) return false;
+  if (except !== "category" && activeCategory && l.category !== activeCategory) return false;
+  if (verifiedOnly && !l.verified) return false;
+  if (featuredOnly && !l.featured) return false;
   if (query) {
     const hay = [l.name, l.category, l.city, l.description, (l.tags || []).join(" ")]
       .join(" ").toLowerCase();
     if (!hay.includes(query)) return false;
   }
   return true;
+}
+
+function buildFilters() {
+  filterCatsEl.innerHTML = "";
+  orderedCategories().forEach(c => {
+    const b = document.createElement("button");
+    b.className = "fitem";
+    b.innerHTML = "<span></span><span class=\"fcount-num\"></span>";
+    b.querySelector("span").textContent = c;
+    b.onclick = () => {
+      activeCategory = activeCategory === c ? "" : c;
+      syncFilters();
+      render();
+    };
+    filterCatsEl.appendChild(b);
+  });
+  filterStatesEl.innerHTML = "";
+  STATES.forEach(s => {
+    const b = document.createElement("button");
+    b.className = "fitem";
+    b.innerHTML = "<span></span><span class=\"fcount-num\"></span>";
+    b.querySelector("span").textContent = s.label;
+    b.onclick = () => {
+      activeState = s.v;
+      activeCity = "";
+      buildCityOptions();
+      syncFilters();
+      render();
+    };
+    filterStatesEl.appendChild(b);
+  });
+  buildCityOptions();
+}
+
+function buildCityOptions() {
+  const cities = [...new Set(LISTINGS
+    .filter(l => activeState === "ALL" || l.state === activeState)
+    .map(l => (l.city || "").trim()).filter(Boolean))].sort();
+  filterCityEl.innerHTML = "";
+  const all = document.createElement("option");
+  all.value = ""; all.textContent = "All cities";
+  filterCityEl.appendChild(all);
+  cities.forEach(c => {
+    const o = document.createElement("option");
+    o.value = c; o.textContent = c;
+    filterCityEl.appendChild(o);
+  });
+  filterCityEl.value = activeCity;
+}
+
+// refresh active states and faceted counts
+function syncFilters() {
+  const catCounts = {};
+  LISTINGS.forEach(l => {
+    if (matchesExcept(l, "category") && l.category) catCounts[l.category] = (catCounts[l.category] || 0) + 1;
+  });
+  [...filterCatsEl.children].forEach(b => {
+    const c = b.firstChild.textContent;
+    b.classList.toggle("active", activeCategory === c);
+    b.querySelector(".fcount-num").textContent = catCounts[c] || 0;
+  });
+  const stateCounts = {};
+  LISTINGS.forEach(l => {
+    if (matchesExcept(l, "state")) {
+      stateCounts.ALL = (stateCounts.ALL || 0) + 1;
+      if (l.state) stateCounts[l.state] = (stateCounts[l.state] || 0) + 1;
+    }
+  });
+  [...filterStatesEl.children].forEach((b, i) => {
+    const v = STATES[i].v;
+    b.classList.toggle("active", activeState === v);
+    b.querySelector(".fcount-num").textContent = stateCounts[v] || 0;
+  });
+  const n = (activeCategory ? 1 : 0) + (activeState !== "ALL" ? 1 : 0) +
+    (activeCity ? 1 : 0) + (verifiedOnly ? 1 : 0) + (featuredOnly ? 1 : 0);
+  filtersCount.textContent = n;
+  filtersCount.classList.toggle("hidden", n === 0);
+}
+
+function matches(l) {
+  return matchesExcept(l, null);
 }
 
 function mapsUrl(l) {
@@ -104,6 +180,7 @@ function reviewsUrl(l) {
 
 function render() {
   const results = LISTINGS.filter(matches);
+  syncFilters();
   countEl.textContent = results.length === LISTINGS.length
     ? `Showing all ${LISTINGS.length} businesses`
     : `Showing ${results.length} of ${LISTINGS.length} businesses`;
@@ -179,7 +256,8 @@ function renderFeatured() {
   const section = document.getElementById("featured");
   const rowEl = document.getElementById("featured-row");
   const featured = LISTINGS.filter(l => l.featured);
-  const showStrip = !mapView && activeState === "ALL" && !activeCategory && !query && featured.length > 0;
+  const showStrip = !mapView && activeState === "ALL" && !activeCategory && !activeCity &&
+    !verifiedOnly && !featuredOnly && !query && featured.length > 0;
   section.classList.toggle("hidden", !showStrip);
   if (!showStrip) return;
   rowEl.innerHTML = "";
@@ -384,20 +462,40 @@ document.getElementById("event-search").oninput = e => {
   renderEvents();
 };
 
-document.querySelectorAll(".state-tab").forEach(b => {
-  b.onclick = () => {
-    document.querySelectorAll(".state-tab").forEach(x => x.classList.remove("active"));
-    b.classList.add("active");
-    activeState = b.dataset.state;
-    render();
-  };
-});
-
-categoryEl.onchange = () => {
-  activeCategory = categoryEl.value;
-  document.querySelectorAll(".chip").forEach(x =>
-    x.classList.toggle("active", x.textContent === activeCategory));
+filterCityEl.onchange = () => {
+  activeCity = filterCityEl.value;
+  syncFilters();
   render();
+};
+
+document.getElementById("f-verified").onchange = e => {
+  verifiedOnly = e.target.checked;
+  syncFilters();
+  render();
+};
+
+document.getElementById("f-featured").onchange = e => {
+  featuredOnly = e.target.checked;
+  syncFilters();
+  render();
+};
+
+document.getElementById("filters-clear").onclick = () => {
+  activeState = "ALL";
+  activeCategory = "";
+  activeCity = "";
+  verifiedOnly = false;
+  featuredOnly = false;
+  document.getElementById("f-verified").checked = false;
+  document.getElementById("f-featured").checked = false;
+  buildCityOptions();
+  syncFilters();
+  render();
+};
+
+filtersToggle.onclick = () => {
+  const open = filtersEl.classList.toggle("open");
+  filtersToggle.setAttribute("aria-expanded", open);
 };
 
 let debounce;

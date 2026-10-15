@@ -34,23 +34,14 @@
 
 <section class="search-band">
   <div class="wrap">
-    <input id="search" type="search" placeholder="Search restaurants, groceries, tax services, realtors&hellip;" autocomplete="off" aria-label="Search businesses">
-    <div class="filter-row">
-      <div class="state-tabs" role="tablist" aria-label="Filter by state">
-        <button class="state-tab active" data-state="ALL">All DMV</button>
-        <button class="state-tab" data-state="DC">DC</button>
-        <button class="state-tab" data-state="MD">Maryland</button>
-        <button class="state-tab" data-state="VA">Virginia</button>
-      </div>
-      <select id="category" aria-label="Filter by category">
-        <option value="">All categories</option>
-      </select>
+    <div class="search-row">
+      <input id="search" type="search" placeholder="Search restaurants, groceries, tax services, realtors&hellip;" autocomplete="off" aria-label="Search businesses">
+      <button id="filters-toggle" class="filters-toggle" aria-expanded="false" aria-controls="filters">Filters <span id="filters-count" class="fcount hidden"></span></button>
       <div class="view-toggle" role="tablist" aria-label="Switch view">
         <button id="view-list" class="view-btn active">List</button>
         <button id="view-map" class="view-btn">Map</button>
       </div>
     </div>
-    <div id="chips" class="chips"></div>
   </div>
 </section>
 
@@ -73,14 +64,40 @@
   </section>
 
   <p id="count" class="count"></p>
-  <div id="grid" class="grid"></div>
-  <div id="empty" class="empty hidden">
-    <p>No businesses match your search.</p>
-    <p>Know one we're missing? <a href="mailto:hellomuku@gmail.com?subject=Nepal%20in%20DMV%20listing%20suggestion">Suggest it</a>.</p>
-  </div>
-  <div id="map-wrap" class="hidden">
-    <div id="map"></div>
-    <p id="map-note" class="map-note"></p>
+  <div class="dir-layout">
+    <aside id="filters" class="filters" aria-label="Filters">
+      <div class="filters-head">
+        <h2>Filters</h2>
+        <button id="filters-clear" class="link-btn">Clear all</button>
+      </div>
+      <div class="filter-group">
+        <h3>Category</h3>
+        <div id="filter-cats" class="filter-list"></div>
+      </div>
+      <div class="filter-group">
+        <h3>Location</h3>
+        <div id="filter-states" class="filter-list"></div>
+        <select id="filter-city" aria-label="Filter by city">
+          <option value="">All cities</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <h3>Badges</h3>
+        <label class="check"><input type="checkbox" id="f-verified"> Verified only</label>
+        <label class="check"><input type="checkbox" id="f-featured"> Featured only</label>
+      </div>
+    </aside>
+    <div class="dir-results">
+      <div id="grid" class="grid"></div>
+      <div id="empty" class="empty hidden">
+        <p>No businesses match your filters.</p>
+        <p>Know one we're missing? <a href="mailto:hellomuku@gmail.com?subject=Nepal%20in%20DMV%20listing%20suggestion">Suggest it</a>.</p>
+      </div>
+      <div id="map-wrap" class="hidden">
+        <div id="map"></div>
+        <p id="map-note" class="map-note"></p>
+      </div>
+    </div>
   </div>
 </div>
 
