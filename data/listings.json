@@ -2111,5 +2111,25 @@
     ],
     "lat": 38.8565,
     "lng": -77.31543
+  },
+  {
+    "id": "va-049",
+    "name": "LuxBox by Smileykamu",
+    "category": "Retail",
+    "address": "Serving the Northern Virginia area (local pickup)",
+    "city": "Warrenton",
+    "state": "VA",
+    "zip": "20187",
+    "phone": "",
+    "website": "https://form.jotform.com/262784039442058",
+    "description": "Curated Nepali gift boxes for Tihar, Bhai Tika and special occasions: Dhaka topi, bhai tika sets, makhamali mala, Nepali wallets, pustakari and more. Four collections from $59.99 to $89.99. U.S. shipping and local pickup available.",
+    "tags": [
+      "nepali-owned",
+      "gift boxes",
+      "tihar",
+      "online"
+    ],
+    "lat": 38.73685,
+    "lng": -77.77301
   }
 ]
