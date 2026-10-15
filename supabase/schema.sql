@@ -183,8 +183,8 @@ create policy "owners edit own listing" on public.listings
 -- ============ Stripe flow (app/webhook code, not SQL) ============
 -- 1. User clicks "Feature my business" -> Stripe Checkout Session with
 --    metadata { listing_id, tier: 'featured' }.
---    Current pricing: banner ads $99.99/mo, sidebar ads $49.99/mo,
---    featured business $49.99/week, job posts $29/30 days, housing $19/30 days.
+--    Current pricing: banner ads $49.99/week, sidebar ads $49.99/mo,
+--    featured business $99.99/month, job posts $29/30 days, housing $19/30 days.
 --    Referral program: 20% commission on the referred advertiser's first payment.
 -- 2. Webhook checkout.session.completed -> service-role key:
 --      insert into payments (...) ;
