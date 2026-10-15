@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Geocode HamroBiz listings via Nominatim (1 req/sec, polite UA).
+"""Geocode Nepal in DMV listings via Nominatim (1 req/sec, polite UA).
 Adds 'lat'/'lng' to listings that have a street address and no coords yet.
 Listings with no street address are left unmapped (lat/lng = None)."""
 import json, time, urllib.parse, urllib.request

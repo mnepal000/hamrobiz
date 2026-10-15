@@ -1,4 +1,4 @@
-# HamroBiz — Nepali Business Directory (DMV)
+# Nepal in DMV — Nepali Business Directory
 
 Working title; rename anytime. Phase 1 of the Nepali community classifieds idea:
 a **directory-first MVP** seeded with real Nepali-owned businesses in
@@ -35,7 +35,7 @@ Retail, Health, Services, Other.
 
 ## Roadmap
 
-- Phase 1 (now): seeded static directory, "suggest a business" via email. Every listing links out to its Google reviews; a native HamroBiz rating system is planned later.
+- Phase 1 (now): seeded static directory, "suggest a business" via email. Every listing links out to its Google reviews; a native rating system is planned later.
 - Phase 2: self-serve posting with moderation queue (Supabase free tier).
 - Phase 3: jobs board (post a job / looking-for-job) + paid featured listings via Stripe.
 

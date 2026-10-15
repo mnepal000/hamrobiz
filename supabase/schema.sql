@@ -1,4 +1,4 @@
--- HamroBiz backend schema (Supabase / Postgres)
+-- Nepal in DMV backend schema (Supabase / Postgres)
 -- Run in the Supabase SQL editor. Assumes pg_trgm extension for search.
 -- Design: public read of published rows, anyone can submit to the moderation
 -- queue, only moderators can publish, Stripe webhooks write via service role.
