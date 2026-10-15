@@ -1,1 +1,40 @@
-[{"date_end": "2026-10-25", "date_start": "2026-10-11", "demo": true, "description": "Nepal's biggest and most important festival: 15 days of goddess worship, family reunions, tika and jamara blessings, feasts, kites, and bamboo swings. Vijaya Dashami (tika day) falls on Wednesday, October 21, 2026. DMV Nepali organizations typically host community Dashain gatherings on the weekend closest to tika day; watch this board for announcements.", "id": "evt-001", "location": "Celebrated across the DMV Nepali community", "organizer": "Community-wide", "title": "Dashain 2083 (Bada Dashain)"}, {"date_end": "2026-11-11", "date_start": "2026-11-07", "demo": true, "description": "The festival of lights: five days honoring crows, dogs, cows, oxen, and the bond between brothers and sisters. Laxmi Puja on November 8; Bhai Tika on Wednesday, November 11, 2026. Community Deusi-Bhailo programs and Tihar parties will be listed here as organizers announce them.", "id": "evt-002", "location": "Celebrated across the DMV Nepali community", "organizer": "Community-wide", "title": "Tihar / Deepawali 2083"}, {"id": "evt-003", "title": "DT Fest 2026: Dashain and Tihar Festival", "organizer": "3E Entertainment", "location": "One Loudoun, 44578 Atwater Dr, Ashburn, VA", "date_start": "2026-10-11", "date_end": "2026-10-11", "description": "The largest Nepali cultural festival in the U.S., uniting the DMV diaspora for Dashain and Tihar: live music and performances, cultural dances, 50+ vendors, artisan market, kids zone, and food trucks. Tickets are phased: $35 early bird (sold out), $45 to $65 general admission, $199 group pass for five, $149 VIP; kids 10 and under enter free with a ticketed adult. Half of online ticket proceeds support Nepal flood relief through the Global Family Foundation, and the Nepal Embassy will host an information booth. Full schedule and tickets at dtfest.com."}]
+[
+  {
+    "date_end": "2026-10-25",
+    "date_start": "2026-10-11",
+    "demo": true,
+    "description": "Nepal's biggest and most important festival: 15 days of goddess worship, family reunions, tika and jamara blessings, feasts, kites, and bamboo swings. Vijaya Dashami (tika day) falls on Wednesday, October 21, 2026. DMV Nepali organizations typically host community Dashain gatherings on the weekend closest to tika day; watch this board for announcements.",
+    "id": "evt-001",
+    "location": "Celebrated across the DMV Nepali community",
+    "organizer": "Community-wide",
+    "title": "Dashain 2083 (Bada Dashain)"
+  },
+  {
+    "date_end": "2026-11-11",
+    "date_start": "2026-11-07",
+    "demo": true,
+    "description": "The festival of lights: five days honoring crows, dogs, cows, oxen, and the bond between brothers and sisters. Laxmi Puja on November 8; Bhai Tika on Wednesday, November 11, 2026. Community Deusi-Bhailo programs and Tihar parties will be listed here as organizers announce them.",
+    "id": "evt-002",
+    "location": "Celebrated across the DMV Nepali community",
+    "organizer": "Community-wide",
+    "title": "Tihar / Deepawali 2083"
+  },
+  {
+    "id": "evt-003",
+    "title": "DT Fest 2026: Dashain and Tihar Festival",
+    "organizer": "3E Entertainment",
+    "location": "One Loudoun, 44578 Atwater Dr, Ashburn, VA",
+    "date_start": "2026-10-11",
+    "date_end": "2026-10-11",
+    "description": "The largest Nepali cultural festival in the U.S., uniting the DMV diaspora for Dashain and Tihar: live music and performances, cultural dances, 50+ vendors, artisan market, kids zone, and food trucks. Tickets are phased: $35 early bird (sold out), $45 to $65 general admission, $199 group pass for five, $149 VIP; kids 10 and under enter free with a ticketed adult. Half of online ticket proceeds support Nepal flood relief through the Global Family Foundation, and the Nepal Embassy will host an information booth. Full schedule and tickets at dtfest.com."
+  },
+  {
+    "id": "evt-004",
+    "title": "Kukur Tihar USA Festival 2026",
+    "organizer": "Kukur Tihar USA",
+    "location": "PWC Animal Services, 14807 Bristow Road, Manassas, VA 20112",
+    "date_start": "2026-10-25",
+    "date_end": "2026-10-25",
+    "description": "The annual U.S. celebration of Kukur Tihar, Nepal's day of the dog: a dog blessing ceremony with traditional tika and marigold garlands, red-carpet dog walk, cultural performances, food trucks, local business booths, and pet adoption resources. Sunday, October 25, 2026, 11:00 AM to 12:00 PM. Family-friendly; bring your dog. Registration and details at kukurtiharusa.org."
+  }
+]
