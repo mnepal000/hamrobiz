@@ -107,6 +107,7 @@ body {
 .side-ad p { font-size: 12.5px; color: var(--muted); }
 .side-ad a { font-size: 13px; font-weight: 700; color: var(--blue); text-decoration: none; }
 .side-ad a:hover { text-decoration: underline; }
+.side-ad-tall { min-height: 250px; display: flex; flex-direction: column; justify-content: center; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; padding-bottom: 40px; }
 .card {
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
