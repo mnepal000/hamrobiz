@@ -261,6 +261,8 @@ body {
   padding: 3px 10px; margin-bottom: 2px; align-self: flex-start;
 }
 .featured-tag.inline { margin: 0 0 8px 8px; vertical-align: 3px; }
+.featured-cta { font-size: 13.5px; color: var(--muted); margin: 6px 0 4px; }
+.featured-cta a { color: var(--blue); font-weight: 700; }
 
 /* Verified badge */
 .verified {
