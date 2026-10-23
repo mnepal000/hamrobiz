@@ -46,7 +46,10 @@ function mapsUrl(l) {
 }
 function excerpt(s, n) {
   s = String(s || "");
-  return s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s;
+  if (s.length <= n) return s;
+  const cut = s.slice(0, n - 1);
+  const lastSpace = cut.lastIndexOf(" ");
+  return (lastSpace > 40 ? cut.slice(0, lastSpace) : cut).trimEnd() + "…";
 }
 
 /* ---------- slugs ---------- */
@@ -172,7 +175,7 @@ ${related.length ? `<h3 class="section-title">More businesses to explore</h3><di
 
 /* ---------- category pages ---------- */
 function categoryPage(cat, items) {
-  const P = "../";
+  const P = "../../";
   const sorted = items.slice().sort((a, b) => (a.city + a.name).localeCompare(b.city + b.name));
   const body = `
 <nav class="crumbs"><a href="${P}">Directory</a> &rsaquo; ${esc(cat)}</nav>
@@ -185,7 +188,7 @@ function categoryPage(cat, items) {
 
 /* ---------- city pages ---------- */
 function cityPage(city, state, items) {
-  const P = "../";
+  const P = "../../";
   const sorted = items.slice().sort((a, b) => a.name.localeCompare(b.name));
   const body = `
 <nav class="crumbs"><a href="${P}">Directory</a> &rsaquo; ${esc(city)}, ${esc(state)}</nav>
