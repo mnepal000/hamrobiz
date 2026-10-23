@@ -1778,20 +1778,22 @@
     "id": "va-046",
     "name": "Bandita Sharma-Dahal, Dahal And Associates, LLC",
     "category": "Legal & Immigration",
-    "address": "6109 Arlington Blvd",
+    "address": "6109 F Arlington Blvd",
     "city": "Falls Church",
     "state": "VA",
     "zip": "22044",
     "phone": "(703) 532-3575",
-    "website": "https://banditaimmigrationlaw.com",
-    "description": "Nepali-born immigration attorney, licensed in DC and NY and an AILA member; office in Falls Church.",
+    "website": "http://banditaimmigrationlaw.com/",
+    "description": "Immigration law practice of Bandita Sharma-Dahal (Dahal and Associates, LLC): family and employment petitions, asylum, deportation defense and citizenship, serving the DMV Nepali community in Nepali, Hindi and English.",
     "tags": [
+      "attorney",
       "immigration",
       "lawyer",
-      "nepali-owned"
+      "nepali-owned",
+      "nepali-speaking"
     ],
-    "lat": 38.8703682,
-    "lng": -77.1710131
+    "lat": 38.867326,
+    "lng": -77.14463
   },
   {
     "id": "md-075",
@@ -2822,25 +2824,6 @@
     ],
     "lat": 38.957158,
     "lng": -77.399681
-  },
-  {
-    "id": "va-067",
-    "name": "Dahal Law Associates",
-    "category": "Legal",
-    "address": "6109 F Arlington Blvd",
-    "city": "Falls Church",
-    "state": "VA",
-    "zip": "22044",
-    "phone": "(703) 532-3575",
-    "website": "http://banditaimmigrationlaw.com/",
-    "description": "Immigration law practice of Bandita Sharma-Dahal (Dahal and Associates, LLC): family and employment petitions, asylum, deportation defense and citizenship, serving the DMV Nepali community in Nepali, Hindi and English.",
-    "tags": [
-      "immigration",
-      "nepali-speaking",
-      "attorney"
-    ],
-    "lat": 38.867326,
-    "lng": -77.14463
   },
   {
     "id": "va-068",
