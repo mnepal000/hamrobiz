@@ -2991,5 +2991,24 @@
     ],
     "lat": 37.32341,
     "lng": -78.77244
+  },
+  {
+    "id": "va-076",
+    "name": "Esteam Builder",
+    "category": "Services",
+    "address": "3609 C Chain Bridge Rd",
+    "city": "Fairfax",
+    "state": "VA",
+    "zip": "22030",
+    "phone": "(833) 562-6013",
+    "website": "https://esteambuilder.com/",
+    "description": "Nepali-owned home renovation company in Fairfax led by CEO Suresh Sapkota: kitchen, bathroom and interior remodeling plus roofing, licensed, bonded and insured, serving Arlington, Fairfax, Loudoun and Prince William counties.",
+    "tags": [
+      "remodeling",
+      "roofing",
+      "nepali-owned"
+    ],
+    "lat": 38.85717,
+    "lng": -77.30688
   }
 ]
