@@ -2977,5 +2977,63 @@
     ],
     "lat": 38.85717,
     "lng": -77.30688
+  },
+  {
+    "id": "md-107",
+    "name": "Sizzling Bombay",
+    "category": "Restaurant",
+    "address": "2108 Emmorton Rd, Ste 3",
+    "city": "Bel Air",
+    "state": "MD",
+    "zip": "21015",
+    "phone": "(410) 569-0148",
+    "website": "https://sizzlingbombay.net/",
+    "description": "Family-owned Indian restaurant in Bel Air run since 2007 by owner-chef Mahendra Deshar and his wife Yashoda Gurung, the first Indian restaurant in Harford County: tandoori dishes, kabobs, fresh naan, Indian-Chinese fusion and a daily lunch buffet, rated 4.6 from over 1,000 reviews.",
+    "tags": [
+      "nepali-owned",
+      "buffet",
+      "tandoori"
+    ],
+    "lat": 39.49845,
+    "lng": -76.32672
+  },
+  {
+    "id": "md-108",
+    "name": "New Berger One Tavern",
+    "category": "Restaurant",
+    "address": "5523 Belair Rd",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21206",
+    "phone": "(410) 325-3711",
+    "website": "https://newbergerstavern.com/",
+    "description": "Baltimore tavern whose kitchen serves Nepali and American cuisine (announced by its operator in the Saathi Baltimore community group), with delivery and catering for events.",
+    "tags": [
+      "tavern",
+      "nepali food",
+      "catering"
+    ],
+    "lat": 39.340075,
+    "lng": -76.548587
+  },
+  {
+    "id": "va-077",
+    "name": "Koseli Catering",
+    "category": "Services",
+    "address": "Serving Northern Virginia and the DMV",
+    "city": "Fairfax",
+    "state": "VA",
+    "zip": "",
+    "phone": "(571) 337-4826",
+    "website": "https://www.koselicatering.com/",
+    "description": "Boutique Nepali and South Asian catering for weddings, corporate events, Pasni, Bratabandha and private gatherings across Northern Virginia and the DMV, built on the Nepali tradition of treating every guest as divine (Atithi Devo Bhava). Book at least 3 days ahead.",
+    "tags": [
+      "catering",
+      "weddings",
+      "events",
+      "nepali-owned"
+    ],
+    "lat": 38.84185,
+    "lng": -77.30905
   }
 ]
