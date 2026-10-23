@@ -2150,5 +2150,24 @@
     ],
     "lat": 38.88159,
     "lng": -77.23017
+  },
+  {
+    "id": "md-088",
+    "name": "Nagari Car Repair & Sales",
+    "category": "Services",
+    "address": "5323 Reisterstown Rd, Suite A",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21215",
+    "phone": "(443) 278-5184",
+    "website": "http://www.nagaricarrepair.com/",
+    "description": "Auto repair shop and used car dealership on Reisterstown Road: repairs from oil changes to engine work, pre-owned vehicle sales with financing, and an on-site service center. Frequently recommended in Baltimore Nepali community threads; ownership unconfirmed.",
+    "tags": [
+      "auto repair",
+      "used cars",
+      "baltimore"
+    ],
+    "lat": 39.345629,
+    "lng": -76.686857
   }
 ]
