@@ -2413,21 +2413,22 @@
   },
   {
     "id": "md-102",
-    "name": "Compassionate Care Companion LLC",
+    "name": "Homewatch CareGivers of Potomac",
     "category": "Health",
     "address": "10000 Falls Rd, Ste 203",
     "city": "Potomac",
     "state": "MD",
     "zip": "20854",
-    "phone": "(240) 242-7224",
-    "description": "Nepali-owned non-medical home care agency in Potomac (NPI 1306604525, authorized official Jaslin Bhandari): in-home supportive care and companionship.",
+    "phone": "(240) 201-4334",
+    "description": "Nepali-owned home care agency in Potomac run by Jaslin Bhandari (Compassionate Care Companion LLC, NPI 1306604525), operating as Homewatch CareGivers of Potomac. Licensed by the Maryland Department of Health: personal care, companionship, dementia and Alzheimer's care, and chronic-condition support across Potomac, Rockville, Gaithersburg and central Montgomery County.",
     "tags": [
       "home care",
       "nepali-owned",
       "seniors"
     ],
     "lat": 39.0192,
-    "lng": -77.20892
+    "lng": -77.20892,
+    "website": "https://www.homewatchcaregivers.com/potomac/"
   },
   {
     "id": "md-103",
