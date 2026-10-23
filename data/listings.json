@@ -2522,5 +2522,417 @@
     ],
     "lat": 38.9072,
     "lng": -77.0369
+  },
+  {
+    "id": "va-051",
+    "name": "Kirana Pasal - Himalayan Grocery & Meat Co.",
+    "category": "Grocery",
+    "address": "20630 Ashburn Rd, Ste 160",
+    "city": "Ashburn",
+    "state": "VA",
+    "zip": "20147",
+    "phone": "(571) 436-4205",
+    "website": "https://www.kiranapasal.shop/",
+    "description": "Nepali grocery and meat store in Ashburn: spices, pickles, noodles, dal, fresh goat and chicken, clothing and handicrafts, plus the Tempo Shack takeout counter for momos and chatpate. Online ordering with free US shipping over $75.",
+    "tags": [
+      "nepali grocery",
+      "meat",
+      "online ordering"
+    ],
+    "lat": 39.046819,
+    "lng": -77.484972
+  },
+  {
+    "id": "va-052",
+    "name": "Sagun Mart",
+    "category": "Grocery",
+    "address": "6715-J Backlick Rd (Backlick Square)",
+    "city": "Springfield",
+    "state": "VA",
+    "zip": "22150",
+    "phone": "(703) 712-7353",
+    "website": "https://sagunmart.com/",
+    "description": "Women-owned South Asian grocery in Springfield with an authentic Nepali focus: spices, snacks, festival sweets and puja items for Dashain, Tihar, Teej and Holi, plus beer and wine.",
+    "tags": [
+      "nepali grocery",
+      "festival items",
+      "women-owned"
+    ],
+    "lat": 38.77147,
+    "lng": -77.1836
+  },
+  {
+    "id": "va-053",
+    "name": "Annapurna Grocery",
+    "category": "Grocery",
+    "address": "4500 John Marr Dr",
+    "city": "Annandale",
+    "state": "VA",
+    "zip": "22003",
+    "phone": "(703) 256-1212",
+    "website": "",
+    "description": "South Asian and Nepali specialty grocery in Annandale: fresh produce, spices, dal, rice, snacks and household essentials, a community hub for Northern Virginia's Nepali and South Asian shoppers.",
+    "tags": [
+      "nepali grocery",
+      "south asian"
+    ],
+    "lat": 38.82843,
+    "lng": -77.19234
+  },
+  {
+    "id": "va-054",
+    "name": "Dukaan",
+    "category": "Grocery",
+    "address": "11116 Lee Hwy",
+    "city": "Fairfax",
+    "state": "VA",
+    "zip": "22030",
+    "phone": "(703) 273-7400",
+    "website": "http://www.dukaanusa.com/",
+    "description": "Ethnic grocery on Lee Highway in Fairfax stocking Indian and Nepali groceries, halal meats, fresh produce and snacks (ownership unconfirmed).",
+    "tags": [
+      "grocery",
+      "halal meat"
+    ],
+    "lat": 38.852341,
+    "lng": -77.32918
+  },
+  {
+    "id": "va-055",
+    "name": "Express Grocery Store",
+    "category": "Grocery",
+    "address": "198 Zan Rd",
+    "city": "Charlottesville",
+    "state": "VA",
+    "zip": "22901",
+    "phone": "(434) 284-7549",
+    "website": "",
+    "description": "Indian and Nepali grocery in Charlottesville, open daily; the nearest dedicated Nepali grocer for the Harrisonburg and central Virginia community.",
+    "tags": [
+      "nepali grocery",
+      "indian grocery"
+    ],
+    "lat": 38.06319,
+    "lng": -78.48862
+  },
+  {
+    "id": "va-056",
+    "name": "Food Mart",
+    "category": "Grocery",
+    "address": "953 S High St",
+    "city": "Harrisonburg",
+    "state": "VA",
+    "zip": "22801",
+    "phone": "(540) 433-3121",
+    "website": "",
+    "description": "Convenience and grocery store on South High Street in Harrisonburg known locally for Nepali and Indian food, including momos and biryani (ownership unconfirmed).",
+    "tags": [
+      "grocery",
+      "momo",
+      "nepali food"
+    ],
+    "lat": 38.43979,
+    "lng": -78.88689
+  },
+  {
+    "id": "va-057",
+    "name": "Raaga Restaurant",
+    "category": "Restaurants",
+    "address": "5872 Leesburg Pike",
+    "city": "Falls Church",
+    "state": "VA",
+    "zip": "22041",
+    "phone": "(703) 998-7000",
+    "website": "https://www.raagarestaurant.com/",
+    "description": "Indian and Nepali restaurant at Bailey's Crossroads, long known for its lunch buffet (weekday and weekend), curries and table-served naan.",
+    "tags": [
+      "buffet",
+      "indian",
+      "nepali"
+    ],
+    "lat": 38.8532,
+    "lng": -77.13339
+  },
+  {
+    "id": "va-058",
+    "name": "Tandoori Fairfax",
+    "category": "Restaurants",
+    "address": "10312 Willard Way",
+    "city": "Fairfax",
+    "state": "VA",
+    "zip": "22030",
+    "phone": "(703) 865-8800",
+    "website": "https://tandoorifairfax.com/",
+    "description": "Indian and Nepalese restaurant and party palace in Fairfax: momos, biryani, tandoori specialties and Nepali thali, with a banquet hall, catering and a full bar.",
+    "tags": [
+      "nepali thali",
+      "banquet",
+      "catering"
+    ],
+    "lat": 38.84825,
+    "lng": -77.30202
+  },
+  {
+    "id": "va-059",
+    "name": "Urban Tandoor",
+    "category": "Restaurants",
+    "address": "801 N Quincy St, Ste 130",
+    "city": "Arlington",
+    "state": "VA",
+    "zip": "22203",
+    "phone": "(703) 567-1432",
+    "website": "https://www.utandoorva.com/",
+    "description": "Indian and Nepali restaurant in Ballston: chili momos, wild boar sekuwa, biryani and tandoori plates, an all-you-can-eat lunch buffet and a wrap-around patio.",
+    "tags": [
+      "momo",
+      "buffet",
+      "ballston"
+    ],
+    "lat": 38.88009,
+    "lng": -77.107439
+  },
+  {
+    "id": "va-060",
+    "name": "Namaste Jalsaa Restaurant & Bar",
+    "category": "Restaurants",
+    "address": "1504 King St",
+    "city": "Alexandria",
+    "state": "VA",
+    "zip": "22314",
+    "phone": "(571) 970-0615",
+    "website": "http://www.namastejalsaa.com/",
+    "description": "Upscale Indian and Nepalese fine dining on King Street in Old Town Alexandria, led by Chef Bharat Sunar: lunch buffet, thali sets, full bar and happy hour.",
+    "tags": [
+      "fine dining",
+      "old town",
+      "thali"
+    ],
+    "lat": 38.806147,
+    "lng": -77.056126
+  },
+  {
+    "id": "va-061",
+    "name": "Momo Cart",
+    "category": "Restaurants",
+    "address": "Serving the Herndon and Northern Virginia area (food truck; call or check social media for today's location)",
+    "city": "Herndon",
+    "state": "VA",
+    "zip": "",
+    "phone": "(571) 210-0122",
+    "website": "https://themomocart.com/",
+    "description": "Nepali food truck serving hand-folded momo from a family recipe, plus Himalayan street food; books events and catering across Northern Virginia.",
+    "tags": [
+      "food truck",
+      "momo",
+      "catering"
+    ],
+    "lat": 38.96973,
+    "lng": -77.385
+  },
+  {
+    "id": "va-062",
+    "name": "Momos N More",
+    "category": "Restaurants",
+    "address": "Serving the Sterling and Northern Virginia area (food truck; call or check social media for today's location)",
+    "city": "Sterling",
+    "state": "VA",
+    "zip": "",
+    "phone": "(703) 469-7000",
+    "website": "https://www.foodtrucksin.com/momos-n-more",
+    "description": "Nepali food truck run by two brothers serving momo and Nepalese street food around Northern Virginia; available for events and private hire.",
+    "tags": [
+      "food truck",
+      "momo"
+    ],
+    "lat": 39.03336,
+    "lng": -77.40713
+  },
+  {
+    "id": "va-063",
+    "name": "Himalaya Free Clinic",
+    "category": "Health",
+    "address": "4101 Elmwood St",
+    "city": "Chantilly",
+    "state": "VA",
+    "zip": "20151",
+    "phone": "(202) 341-8696",
+    "website": "https://himalayafreeclinic.org",
+    "description": "Free clinic staffed by Nepali-speaking licensed professionals: no-cost chronic disease management, doctor check-ups and diabetes education for the uninsured, held the first Saturday of each month.",
+    "tags": [
+      "free clinic",
+      "nepali-speaking",
+      "uninsured"
+    ],
+    "lat": 38.8903,
+    "lng": -77.42787
+  },
+  {
+    "id": "va-064",
+    "name": "Norvinia Health",
+    "category": "Health",
+    "address": "10805 Main St, Ste 200",
+    "city": "Fairfax",
+    "state": "VA",
+    "zip": "22030",
+    "phone": "(703) 651-5910",
+    "website": "https://norvinia.com/",
+    "description": "Primary care and internal medicine practice in Fairfax led by Dr. Mamta Ojha: preventive care, chronic disease management, Medicare wellness visits and direct primary care memberships, serving Northern Virginia's Nepali community.",
+    "tags": [
+      "primary care",
+      "nepali doctor"
+    ],
+    "lat": 38.84979,
+    "lng": -77.31861
+  },
+  {
+    "id": "va-065",
+    "name": "Sahara Sewa LLC",
+    "category": "Health",
+    "address": "14330 Stonewater Ct",
+    "city": "Centreville",
+    "state": "VA",
+    "zip": "20121",
+    "phone": "(571) 445-4840",
+    "website": "",
+    "description": "Nepali-owned home health agency in Centreville (NPI 1164232112): in-home personal and attendant care for seniors and families across Northern Virginia.",
+    "tags": [
+      "home health",
+      "nepali-owned",
+      "seniors"
+    ],
+    "lat": 38.81063,
+    "lng": -77.44495
+  },
+  {
+    "id": "va-066",
+    "name": "Palanchok Eyebrows Threading",
+    "category": "Beauty & Wellness",
+    "address": "13001 Worldgate Dr, Ste 108 (Salon Plaza)",
+    "city": "Herndon",
+    "state": "VA",
+    "zip": "20170",
+    "phone": "(703) 909-8602",
+    "website": "https://pkharel78.wixsite.com/mysite",
+    "description": "Threading salon at Salon Plaza in Herndon run by Puspa Kharel, threading for over 20 years: eyebrows, full face, facials and waxing, rated 5.0 by regulars.",
+    "tags": [
+      "threading",
+      "facials",
+      "nepali-owned"
+    ],
+    "lat": 38.957158,
+    "lng": -77.399681
+  },
+  {
+    "id": "va-067",
+    "name": "Dahal Law Associates",
+    "category": "Legal",
+    "address": "6109 F Arlington Blvd",
+    "city": "Falls Church",
+    "state": "VA",
+    "zip": "22044",
+    "phone": "(703) 532-3575",
+    "website": "http://banditaimmigrationlaw.com/",
+    "description": "Immigration law practice of Bandita Sharma-Dahal (Dahal and Associates, LLC): family and employment petitions, asylum, deportation defense and citizenship, serving the DMV Nepali community in Nepali, Hindi and English.",
+    "tags": [
+      "immigration",
+      "nepali-speaking",
+      "attorney"
+    ],
+    "lat": 38.867326,
+    "lng": -77.14463
+  },
+  {
+    "id": "va-068",
+    "name": "Nepali Realtors Team",
+    "category": "Real Estate",
+    "address": "1577 Spring Hill Rd, Ste 300B (Spring Hill Real Estate LLC)",
+    "city": "Vienna",
+    "state": "VA",
+    "zip": "22182",
+    "phone": "(757) 284-4248",
+    "website": "https://teamnepalirealtors.com/",
+    "description": "Team of Nepali-speaking realtors at Spring Hill Real Estate LLC led by Nishes Bhattarai: residential, commercial and investment sales across Virginia and Maryland, with over $150M sold and 500+ families served.",
+    "tags": [
+      "nepali-speaking",
+      "realtor",
+      "va/md"
+    ],
+    "lat": 38.92738,
+    "lng": -77.24222
+  },
+  {
+    "id": "va-069",
+    "name": "Kabin Sitoula",
+    "category": "Real Estate",
+    "address": "1577 Spring Hill Rd (Spring Hill Real Estate LLC)",
+    "city": "Vienna",
+    "state": "VA",
+    "zip": "22182",
+    "phone": "(703) 552-3111",
+    "website": "https://www.sitoularealtor.com",
+    "description": "Nepali-speaking realtor with Spring Hill Real Estate, licensed in Virginia and Maryland since 2003, serving Northern Virginia and Maryland buyers and sellers.",
+    "tags": [
+      "nepali-speaking",
+      "realtor",
+      "va/md"
+    ],
+    "lat": 38.92738,
+    "lng": -77.24222
+  },
+  {
+    "id": "va-070",
+    "name": "Green Valley Custom Builders",
+    "category": "Services",
+    "address": "3905 Railroad Ave, Ste 200N",
+    "city": "Fairfax",
+    "state": "VA",
+    "zip": "22030",
+    "phone": "(703) 865-5440",
+    "website": "https://greenvalleycb.com/",
+    "description": "Luxury custom home builder in Fairfax founded by Raj Tamang with Kabita Lama and Nimo Khadka: 65+ homes built across Northern Virginia since 2013 and multiple NVBIA design awards.",
+    "tags": [
+      "custom homes",
+      "remodeling",
+      "nepali-founded"
+    ],
+    "lat": 38.84929,
+    "lng": -77.31076
+  },
+  {
+    "id": "va-071",
+    "name": "Katuwal Transport Inc",
+    "category": "Services",
+    "address": "115 Avery Dr",
+    "city": "Stephens City",
+    "state": "VA",
+    "zip": "22655",
+    "phone": "(703) 371-8882",
+    "website": "",
+    "description": "Nepali-owned freight carrier based in Stephens City (USDOT 2847055), hauling freight across the region.",
+    "tags": [
+      "trucking",
+      "freight",
+      "nepali-owned"
+    ],
+    "lat": 39.084,
+    "lng": -78.21752
+  },
+  {
+    "id": "va-072",
+    "name": "Aero Nepal Travel",
+    "category": "Travel",
+    "address": "Serving the Aldie and Northern Virginia area",
+    "city": "Aldie",
+    "state": "VA",
+    "zip": "20105",
+    "phone": "(888) 663-8525",
+    "website": "https://www.facebook.com/AeroNepalTravel/",
+    "description": "Travel agency in Aldie booking flights and tours for the Nepali diaspora, including US to Nepal itineraries.",
+    "tags": [
+      "flights",
+      "nepal travel"
+    ],
+    "lat": 38.97842,
+    "lng": -77.6513
   }
 ]
