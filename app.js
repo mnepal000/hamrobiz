@@ -1,4 +1,5 @@
 let LISTINGS = [];
+let SLUGS = {};
 let JOBS = [];
 let HOUSING = [];
 let EVENTS = [];
@@ -42,9 +43,11 @@ Promise.all([
   fetch("data/listings.json").then(r => r.json()),
   fetch("data/jobs.json").then(r => r.json()).catch(() => []),
   fetch("data/housing.json").then(r => r.json()).catch(() => []),
-  fetch("data/events.json").then(r => r.json()).catch(() => [])
+  fetch("data/events.json").then(r => r.json()).catch(() => []),
+  fetch("data/slugs.json").then(r => r.json()).catch(() => ({}))
 ])
-  .then(([listings, jobs, housing, events]) => {
+  .then(([listings, jobs, housing, events, slugs]) => {
+    SLUGS = slugs && typeof slugs === "object" ? slugs : {};
     LISTINGS = Array.isArray(listings) ? listings : [];
     JOBS = Array.isArray(jobs) ? jobs : [];
     HOUSING = Array.isArray(housing) ? housing : [];
@@ -303,6 +306,7 @@ function openModal(l) {
     row("Phone", l.phone ? `<a href="tel:${esc(l.phone.replace(/[^+\d]/g, ""))}">${esc(l.phone)}</a>` : "") +
     row("Website", l.website ? `<a href="${esc(l.website)}" target="_blank" rel="noopener">Visit site</a>` : "") +
     row("Reviews", `<a href="${reviewsUrl(l)}" target="_blank" rel="noopener">Read Google reviews</a>`) +
+    row("Full page", SLUGS[l.id] ? `<a href="business/${SLUGS[l.id]}/">Open this business's own page</a>` : "") +
     ((l.tags && l.tags.length) ? `<div class="tag-list">${l.tags.map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : "");
   modal.classList.remove("hidden");
   document.body.style.overflow = "hidden";

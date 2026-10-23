@@ -216,6 +216,7 @@ body {
   padding: 8px 18px; border-radius: 999px; cursor: pointer; flex: 0 0 auto;
 }
 .nav-btn:hover { color: #fff; }
+a.nav-btn { text-decoration: none; display: inline-block; }
 .nav-btn.active { background: var(--crimson); color: #fff; }
 .preview-pill {
   font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;
