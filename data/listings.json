@@ -2640,7 +2640,7 @@
   {
     "id": "va-057",
     "name": "Raaga Restaurant",
-    "category": "Restaurants",
+    "category": "Restaurant",
     "address": "5872 Leesburg Pike",
     "city": "Falls Church",
     "state": "VA",
@@ -2659,7 +2659,7 @@
   {
     "id": "va-058",
     "name": "Tandoori Fairfax",
-    "category": "Restaurants",
+    "category": "Restaurant",
     "address": "10312 Willard Way",
     "city": "Fairfax",
     "state": "VA",
@@ -2678,7 +2678,7 @@
   {
     "id": "va-059",
     "name": "Urban Tandoor",
-    "category": "Restaurants",
+    "category": "Restaurant",
     "address": "801 N Quincy St, Ste 130",
     "city": "Arlington",
     "state": "VA",
@@ -2697,7 +2697,7 @@
   {
     "id": "va-060",
     "name": "Namaste Jalsaa Restaurant & Bar",
-    "category": "Restaurants",
+    "category": "Restaurant",
     "address": "1504 King St",
     "city": "Alexandria",
     "state": "VA",
@@ -2716,7 +2716,7 @@
   {
     "id": "va-061",
     "name": "Momo Cart",
-    "category": "Restaurants",
+    "category": "Restaurant",
     "address": "Serving the Herndon and Northern Virginia area (food truck; call or check social media for today's location)",
     "city": "Herndon",
     "state": "VA",
@@ -2735,7 +2735,7 @@
   {
     "id": "va-062",
     "name": "Momos N More",
-    "category": "Restaurants",
+    "category": "Restaurant",
     "address": "Serving the Sterling and Northern Virginia area (food truck; call or check social media for today's location)",
     "city": "Sterling",
     "state": "VA",
