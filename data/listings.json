@@ -2503,5 +2503,24 @@
     ],
     "lat": 39.05813,
     "lng": -76.99881
+  },
+  {
+    "id": "dc-017",
+    "name": "Nepal Vision Treks and Expedition",
+    "category": "Travel",
+    "address": "Serving the Washington DC area (US branch; HQ in Thamel, Kathmandu)",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "",
+    "phone": "(202) 368-6657",
+    "website": "https://www.nepalvisiontreks.com/",
+    "description": "Himalayan trekking and adventure travel company operating since 1992, headquartered in Thamel, Kathmandu, with a US branch contact in Washington DC. Everest, Annapurna and Langtang treks, peak climbing, helicopter tours, jungle safaris, rafting, and cultural tours of Nepal, Bhutan, Tibet and India.",
+    "tags": [
+      "trekking",
+      "travel",
+      "nepal tours"
+    ],
+    "lat": 38.9072,
+    "lng": -77.0369
   }
 ]
