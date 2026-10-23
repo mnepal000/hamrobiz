@@ -2131,5 +2131,24 @@
     ],
     "lat": 38.73685,
     "lng": -77.77301
+  },
+  {
+    "id": "va-050",
+    "name": "Rasoi Indian and Nepali Cuisine",
+    "category": "Restaurant",
+    "address": "2674 Avenir Pl",
+    "city": "Vienna",
+    "state": "VA",
+    "zip": "22180",
+    "phone": "(703) 649-0480",
+    "website": "https://rasoiva.com/",
+    "description": "Indian and Nepalese restaurant in Vienna (Merrifield) serving momos including jhol momo, biryani, tandoori, chaat and curries, with a bar. Takeout and delivery. Open daily from 11:30am.",
+    "tags": [
+      "nepali",
+      "momo",
+      "biryani"
+    ],
+    "lat": 38.88159,
+    "lng": -77.23017
   }
 ]
