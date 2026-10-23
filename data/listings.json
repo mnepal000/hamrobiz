@@ -2934,5 +2934,62 @@
     ],
     "lat": 38.97842,
     "lng": -77.6513
+  },
+  {
+    "id": "va-073",
+    "name": "Apex Homecare Services LLC",
+    "category": "Health",
+    "address": "3900 Westerre Pkwy, Ste 300",
+    "city": "Richmond",
+    "state": "VA",
+    "zip": "23233",
+    "phone": "(804) 303-3567",
+    "website": "",
+    "description": "Nepali-owned home health agency in Richmond (NPI 1275999518): in-home supportive care, case management and skilled home health across the Richmond metro.",
+    "tags": [
+      "home health",
+      "nepali-owned",
+      "seniors"
+    ],
+    "lat": 37.64384,
+    "lng": -77.57848
+  },
+  {
+    "id": "va-074",
+    "name": "Averlife Home Health Group LLC",
+    "category": "Health",
+    "address": "10724 Forget Me Not Way",
+    "city": "Glen Allen",
+    "state": "VA",
+    "zip": "23060",
+    "phone": "(412) 224-8997",
+    "website": "",
+    "description": "Nepali-owned home health agency in Glen Allen (NPI 1417827817): personal care, attendant care and nursing support at home across the Richmond area.",
+    "tags": [
+      "home health",
+      "nepali-owned",
+      "seniors"
+    ],
+    "lat": 37.66526,
+    "lng": -77.48898
+  },
+  {
+    "id": "va-075",
+    "name": "Super Nepali Mart LLC",
+    "category": "Grocery",
+    "address": "13372 Richmond Hwy",
+    "city": "Appomattox",
+    "state": "VA",
+    "zip": "24522",
+    "phone": "(434) 352-3331",
+    "website": "",
+    "description": "Nepali-run convenience and grocery store on Richmond Highway in Appomattox, serving central Virginia since 2019.",
+    "tags": [
+      "convenience store",
+      "grocery",
+      "nepali-owned"
+    ],
+    "lat": 37.32341,
+    "lng": -78.77244
   }
 ]
