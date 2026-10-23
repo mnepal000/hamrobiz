@@ -1495,7 +1495,7 @@
   },
   {
     "id": "va-037",
-    "name": "Everest Grocery Store",
+    "name": "Express Grocery Store",
     "category": "Grocery",
     "address": "198 Zan Rd",
     "city": "Charlottesville",
@@ -1503,10 +1503,11 @@
     "zip": "22901",
     "phone": "(434) 284-7549",
     "website": "https://www.expressgrocerystore.com/",
-    "description": "Indian and Nepali grocery store run by Utsav Gautam, per C-VILLE Weekly. Nepali-associated.",
+    "description": "Indian and Nepali grocery store in Charlottesville run by Utsav Gautam, open daily; the nearest dedicated Nepali grocer for the Harrisonburg and central Virginia community.",
     "tags": [
       "grocery",
-      "nepali"
+      "nepali",
+      "indian grocery"
     ],
     "lat": 38.0630891,
     "lng": -78.4883366
@@ -2599,24 +2600,6 @@
     ],
     "lat": 38.852341,
     "lng": -77.32918
-  },
-  {
-    "id": "va-055",
-    "name": "Express Grocery Store",
-    "category": "Grocery",
-    "address": "198 Zan Rd",
-    "city": "Charlottesville",
-    "state": "VA",
-    "zip": "22901",
-    "phone": "(434) 284-7549",
-    "website": "",
-    "description": "Indian and Nepali grocery in Charlottesville, open daily; the nearest dedicated Nepali grocer for the Harrisonburg and central Virginia community.",
-    "tags": [
-      "nepali grocery",
-      "indian grocery"
-    ],
-    "lat": 38.06319,
-    "lng": -78.48862
   },
   {
     "id": "va-056",
