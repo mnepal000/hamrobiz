@@ -2169,5 +2169,338 @@
     ],
     "lat": 39.345629,
     "lng": -76.686857
+  },
+  {
+    "id": "md-089",
+    "name": "Butter Chicken Restaurant",
+    "category": "Restaurant",
+    "address": "6837 Loch Raven Blvd",
+    "city": "Towson",
+    "state": "MD",
+    "zip": "21286",
+    "phone": "(410) 821-5100",
+    "description": "Nepali and Indian restaurant on Loch Raven Boulevard known for lamb sukuti chowmein, momos, butter chicken and tandoori dishes, with takeout and delivery.",
+    "tags": [
+      "nepali",
+      "momo",
+      "chowmein"
+    ],
+    "lat": 39.38329,
+    "lng": -76.57674,
+    "website": "https://butterchickenrestaurant.com/"
+  },
+  {
+    "id": "md-090",
+    "name": "Family Kitchen",
+    "category": "Restaurant",
+    "address": "4132 E Joppa Rd",
+    "city": "Nottingham",
+    "state": "MD",
+    "zip": "21236",
+    "phone": "(410) 513-7497",
+    "description": "Indian and Nepalese restaurant on East Joppa Road with a popular daily lunch buffet: jhol momo, biryani, tikka masala and fresh naan. Open daily 10am to 10pm.",
+    "tags": [
+      "nepali",
+      "momo",
+      "buffet"
+    ],
+    "lat": 39.399666,
+    "lng": -76.482548,
+    "website": "https://royalpalacemd.com/"
+  },
+  {
+    "id": "md-091",
+    "name": "Namaste Baltimore",
+    "category": "Restaurant",
+    "address": "413 W Cold Spring Ln",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21210",
+    "phone": "(410) 889-2233",
+    "description": "Nepali-owned Indian and Nepalese restaurant in Roland Park, run by Binod Uprety and Gopal Bishwakarma. Thalis, tandoori, chaat and a lunch buffet; takeout, delivery and catering.",
+    "tags": [
+      "nepali-owned",
+      "nepali",
+      "thali"
+    ],
+    "lat": 39.344433,
+    "lng": -76.630826,
+    "website": "https://www.namastebaltimore.com/"
+  },
+  {
+    "id": "md-092",
+    "name": "Royal Spice Nepalese & Indian Restaurant & Bar",
+    "category": "Restaurant",
+    "address": "810 Nursery Rd, Ste G",
+    "city": "Linthicum Heights",
+    "state": "MD",
+    "zip": "21090",
+    "phone": "(410) 589-5166",
+    "description": "Nepalese and Indian restaurant and bar near BWI: jhol momo, Nepali thali, goat bhutan, chowmein and halal options, plus catering. Closed Mondays.",
+    "tags": [
+      "nepali",
+      "momo",
+      "halal",
+      "bar"
+    ],
+    "lat": 39.225235,
+    "lng": -76.663676,
+    "website": "https://royalspicerestaurant.com/"
+  },
+  {
+    "id": "md-093",
+    "name": "Bharosa Grocery",
+    "category": "Grocery",
+    "address": "2108 Emmorton Rd, Suite 4",
+    "city": "Bel Air",
+    "state": "MD",
+    "zip": "21014",
+    "phone": "(443) 402-1286",
+    "description": "Indian and Nepalese grocery in Bel Air: dried staples, spices, fresh vegetables, pickles, frozen foods, biscuits and beauty products. Open daily 10am to 9pm.",
+    "tags": [
+      "nepali",
+      "grocery",
+      "spices"
+    ],
+    "lat": 39.4985,
+    "lng": -76.326466,
+    "website": "http://www.bharosacart.com/"
+  },
+  {
+    "id": "md-094",
+    "name": "Village Bazaar Halal Meat & Ethnic Grocery",
+    "category": "Grocery",
+    "address": "9617 Lost Knife Rd",
+    "city": "Gaithersburg",
+    "state": "MD",
+    "zip": "20877",
+    "phone": "(301) 977-3310",
+    "description": "Ethnic grocery and halal meat shop in Gaithersburg listed as a Nepali community business; ownership unconfirmed.",
+    "tags": [
+      "grocery",
+      "halal meat"
+    ],
+    "lat": 39.15278,
+    "lng": -77.19668
+  },
+  {
+    "id": "md-095",
+    "name": "Gurkha Jewelers",
+    "category": "Retail",
+    "address": "3615 E Joppa Rd, #150",
+    "city": "Parkville",
+    "state": "MD",
+    "zip": "21234",
+    "phone": "(240) 962-7909",
+    "description": "Nepali jewelry store opened in 2024: handcrafted gold and silver jewelry inspired by Nepali tradition, custom designs, silver bars and coins, and gold jewelry repair.",
+    "tags": [
+      "jewelry",
+      "nepali",
+      "gold"
+    ],
+    "lat": 39.395051,
+    "lng": -76.500732,
+    "website": "https://www.gurkhajewelersusa.com/"
+  },
+  {
+    "id": "md-096",
+    "name": "Namaste Liquor Store",
+    "category": "Retail",
+    "address": "3801 Old York Rd",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21218",
+    "phone": "(443) 682-8120",
+    "description": "Beer, wine and spirits store in Waverly, open daily 8am to 10pm. Nepali ownership unconfirmed.",
+    "tags": [
+      "liquor",
+      "beer",
+      "wine"
+    ],
+    "lat": 39.335633,
+    "lng": -76.607409
+  },
+  {
+    "id": "md-097",
+    "name": "Himalayan Glacier Adventure and Travel Company",
+    "category": "Travel",
+    "address": "3717 Boston St, #368",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21224",
+    "phone": "(410) 307-0007",
+    "description": "Nepal-founded in 1992 and headquartered in Baltimore since 2019, this adventure travel company runs guided treks, climbing expeditions and cultural tours in Nepal, Tibet, Bhutan and India.",
+    "tags": [
+      "trekking",
+      "travel",
+      "nepal tours"
+    ],
+    "lat": 39.276754,
+    "lng": -76.564874,
+    "website": "https://www.himalayanglacier.com/"
+  },
+  {
+    "id": "md-098",
+    "name": "Namlo Events",
+    "category": "Photography & Videography",
+    "address": "1700 Van Bibber Rd",
+    "city": "Edgewood",
+    "state": "MD",
+    "zip": "21040",
+    "phone": "(443) 355-1096",
+    "description": "Nepali events and videography company in Edgewood serving the Baltimore and DMV Nepali community: weddings, cultural programs and celebrations.",
+    "tags": [
+      "events",
+      "videography",
+      "nepali"
+    ],
+    "lat": 39.45405,
+    "lng": -76.30541,
+    "website": "https://onechautari.com/businesses/namlo-events-947f8237"
+  },
+  {
+    "id": "md-099",
+    "name": "Altimax Home Care, LLC",
+    "category": "Health",
+    "address": "2141 Huntingdon Ave",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21211",
+    "phone": "(717) 623-5100",
+    "description": "Nepali-owned non-medical home care agency in Baltimore (NPI 1558962761, authorized official Rohit Dahal): in-home supportive care for seniors and families.",
+    "tags": [
+      "home care",
+      "nepali-owned",
+      "seniors"
+    ],
+    "lat": 39.31404,
+    "lng": -76.62028
+  },
+  {
+    "id": "md-100",
+    "name": "American Care Home LLC",
+    "category": "Health",
+    "address": "8812 Dove Dr",
+    "city": "Perry Hall",
+    "state": "MD",
+    "zip": "21128",
+    "phone": "(432) 935-3808",
+    "description": "Nepali-owned home health aide agency in Perry Hall (NPI 1629584487, authorized official Diwash Pokharel).",
+    "tags": [
+      "home care",
+      "nepali-owned"
+    ],
+    "lat": 39.38903,
+    "lng": -76.45543
+  },
+  {
+    "id": "md-101",
+    "name": "Baltimore Adult Medical Day Care",
+    "category": "Health",
+    "address": "1109 Ingleside Ave",
+    "city": "Baltimore",
+    "state": "MD",
+    "zip": "21207",
+    "phone": "(432) 935-3808",
+    "description": "Nepali-owned adult medical day care center (NPI 1619494242, authorized official Diwash Pokharel): daytime care, activities and support for seniors and adults with medical needs.",
+    "tags": [
+      "adult day care",
+      "nepali-owned",
+      "seniors"
+    ],
+    "lat": 39.29319,
+    "lng": -76.72992
+  },
+  {
+    "id": "md-102",
+    "name": "Compassionate Care Companion LLC",
+    "category": "Health",
+    "address": "10000 Falls Rd, Ste 203",
+    "city": "Potomac",
+    "state": "MD",
+    "zip": "20854",
+    "phone": "(240) 242-7224",
+    "description": "Nepali-owned non-medical home care agency in Potomac (NPI 1306604525, authorized official Jaslin Bhandari): in-home supportive care and companionship.",
+    "tags": [
+      "home care",
+      "nepali-owned",
+      "seniors"
+    ],
+    "lat": 39.0192,
+    "lng": -77.20892
+  },
+  {
+    "id": "md-103",
+    "name": "Kids Dental Clinic",
+    "category": "Health",
+    "address": "20400 Observation Dr, Ste 208",
+    "city": "Germantown",
+    "state": "MD",
+    "zip": "20876",
+    "phone": "(301) 528-8685",
+    "description": "Pediatric and family dental clinic in Germantown led by Dr. Roli Malla Joshi, with general dentistry and orthodontics under one roof. The team speaks English, Spanish, Hindi and Nepali.",
+    "tags": [
+      "dentist",
+      "nepali-speaking",
+      "kids"
+    ],
+    "lat": 39.190394,
+    "lng": -77.249642,
+    "website": "https://www.kidsdentalclinic.com/"
+  },
+  {
+    "id": "md-104",
+    "name": "Maryland Primary Care Clinic",
+    "category": "Health",
+    "address": "8114 Sandpiper Cir, #202",
+    "city": "Nottingham",
+    "state": "MD",
+    "zip": "21236",
+    "phone": "(443) 946-1963",
+    "description": "Primary care and family medicine clinic in Nottingham serving patients in English, Nepali and Hindi.",
+    "tags": [
+      "primary care",
+      "nepali-speaking",
+      "clinic"
+    ],
+    "lat": 39.371185,
+    "lng": -76.472362,
+    "website": "https://www.mdprimarycareclinic.com/"
+  },
+  {
+    "id": "md-105",
+    "name": "Everest Cargo Inc",
+    "category": "Services",
+    "address": "409 Stacy Lee Ct",
+    "city": "Westminster",
+    "state": "MD",
+    "zip": "21158",
+    "phone": "(707) 414-0707",
+    "description": "Nepali-owned freight trucking company based in Westminster (USDOT 3209113), running a small fleet for regional freight. Ownership noted from community directories.",
+    "tags": [
+      "trucking",
+      "freight",
+      "logistics"
+    ],
+    "lat": 39.58535,
+    "lng": -77.02377
+  },
+  {
+    "id": "md-106",
+    "name": "Yeti Logistics LLC",
+    "category": "Services",
+    "address": "601 Valley Brook Dr",
+    "city": "Silver Spring",
+    "state": "MD",
+    "zip": "20904",
+    "phone": "(240) 988-0424",
+    "description": "Nepali-owned freight carrier based in Silver Spring (USDOT 3719707). Ownership noted from community directories.",
+    "tags": [
+      "trucking",
+      "freight",
+      "logistics"
+    ],
+    "lat": 39.05813,
+    "lng": -76.99881
   }
 ]
