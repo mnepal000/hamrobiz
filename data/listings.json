@@ -2101,13 +2101,14 @@
     "state": "VA",
     "zip": "22030",
     "phone": "(703) 880-9898",
-    "website": "",
-    "description": "Authentic Nepalese street food near George Mason University, opened January 2026. Handcrafted momos (goat momos highly rated), thukpa, timbur wings, Chitwan ko Taas and poleko sekuwa. Open 11am-9pm daily.",
+    "website": "https://wownepalusa.com/",
+    "description": "Authentic Nepalese restaurant on Fairfax Blvd near George Mason University, opened January 2026. Handcrafted momos (the goat momos are highly rated), thukpa, timur wings, Chitwan ko Taas and poleko sekuwa, plus customizable catering for weddings, parties and corporate events. Closed Tuesdays.",
     "tags": [
       "nepali-owned",
       "nepali",
       "momo",
-      "street food"
+      "street food",
+      "catering"
     ],
     "lat": 38.8565,
     "lng": -77.31543
